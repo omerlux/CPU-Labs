@@ -1,0 +1,1303 @@
+<session jtag_chain="USB-Blaster [USB-0]" jtag_device="@1: EP2C(15|20) (0x020B30DD)" sof_file="output_files/Test.sof">
+  <display_tree gui_logging_enabled="0">
+    <display_branch instance="auto_signaltap_0" log="USE_GLOBAL_TEMP" signal_set="USE_GLOBAL_TEMP" trigger="USE_GLOBAL_TEMP"/>
+  </display_tree>
+  <instance entity_name="sld_signaltap" is_auto_node="yes" is_expanded="true" name="auto_signaltap_0" source_file="sld_signaltap.vhd">
+    <node_ip_info instance_id="0" mfg_id="110" node_id="0" version="6"/>
+    <signal_set global_temp="1" is_expanded="true" name="signal_set: 2020/07/22 19:15:50  #0">
+      <clock name="clock" polarity="posedge" tap_mode="probeonly"/>
+      <config ram_type="M4K" reserved_data_nodes="0" reserved_storage_qualifier_nodes="0" reserved_trigger_nodes="0" sample_depth="256" trigger_in_enable="no" trigger_out_enable="no"/>
+      <top_entity/>
+      <signal_vec>
+        <trigger_input_vec>
+          <wire name="ALU_result_out[0]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[10]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[11]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[12]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[13]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[14]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[15]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[16]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[17]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[18]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[19]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[1]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[20]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[21]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[22]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[23]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[24]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[25]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[26]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[27]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[28]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[29]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[2]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[30]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[31]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[3]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[4]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[5]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[6]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[7]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[8]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[9]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Branch_out" tap_mode="probeonly" type="output pin"/>
+          <wire name="Execute:EXE|ALU_ctl[0]" tap_mode="probeonly" type="combinatorial"/>
+          <wire name="Execute:EXE|ALU_ctl[1]" tap_mode="probeonly" type="combinatorial"/>
+          <wire name="Execute:EXE|ALU_ctl[2]" tap_mode="probeonly" type="combinatorial"/>
+          <wire name="HEX0_out[0]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX0_out[1]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX0_out[2]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX0_out[3]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX0_out[4]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX0_out[5]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX0_out[6]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX1_out[0]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX1_out[1]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX1_out[2]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX1_out[3]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX1_out[4]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX1_out[5]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX1_out[6]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX2_out[0]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX2_out[1]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX2_out[2]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX2_out[3]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX2_out[4]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX2_out[5]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX2_out[6]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX3_out[0]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX3_out[1]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX3_out[2]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX3_out[3]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX3_out[4]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX3_out[5]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX3_out[6]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="Instruction_out[0]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[10]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[11]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[12]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[13]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[14]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[15]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[16]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[17]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[18]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[19]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[1]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[20]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[21]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[22]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[23]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[24]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[25]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[26]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[27]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[28]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[29]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[2]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[30]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[31]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[3]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[4]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[5]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[6]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[7]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[8]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[9]" tap_mode="probeonly" type="output pin"/>
+          <wire name="LEDG_out[0]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="LEDG_out[1]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="LEDG_out[2]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="LEDG_out[3]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="LEDG_out[4]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="LEDG_out[5]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="LEDG_out[6]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="LEDG_out[7]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="LEDR_out[0]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="LEDR_out[1]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="LEDR_out[2]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="LEDR_out[3]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="LEDR_out[4]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="LEDR_out[5]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="LEDR_out[6]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="LEDR_out[7]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="Memwrite_out" tap_mode="probeonly" type="output pin"/>
+          <wire name="PC[0]" tap_mode="probeonly" type="output pin"/>
+          <wire name="PC[1]" tap_mode="probeonly" type="output pin"/>
+          <wire name="PC[2]" tap_mode="probeonly" type="output pin"/>
+          <wire name="PC[3]" tap_mode="probeonly" type="output pin"/>
+          <wire name="PC[4]" tap_mode="probeonly" type="output pin"/>
+          <wire name="PC[5]" tap_mode="probeonly" type="output pin"/>
+          <wire name="PC[6]" tap_mode="probeonly" type="output pin"/>
+          <wire name="PC[7]" tap_mode="probeonly" type="output pin"/>
+          <wire name="PC[8]" tap_mode="probeonly" type="output pin"/>
+          <wire name="PC[9]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Regwrite_out" tap_mode="probeonly" type="output pin"/>
+          <wire name="Switches[0]" tap_mode="probeonly" type="input pin"/>
+          <wire name="Switches[1]" tap_mode="probeonly" type="input pin"/>
+          <wire name="Switches[2]" tap_mode="probeonly" type="input pin"/>
+          <wire name="Switches[3]" tap_mode="probeonly" type="input pin"/>
+          <wire name="Switches[4]" tap_mode="probeonly" type="input pin"/>
+          <wire name="Switches[5]" tap_mode="probeonly" type="input pin"/>
+          <wire name="Switches[6]" tap_mode="probeonly" type="input pin"/>
+          <wire name="Switches[7]" tap_mode="probeonly" type="input pin"/>
+          <wire name="Zero_out" tap_mode="probeonly" type="output pin"/>
+          <wire name="control:CTL|ALUSrc" tap_mode="probeonly" type="combinatorial"/>
+          <wire name="control:CTL|RegWrite" tap_mode="probeonly" type="combinatorial"/>
+          <wire name="read_data_1_out[0]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[10]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[11]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[12]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[13]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[14]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[15]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[16]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[17]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[18]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[19]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[1]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[20]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[21]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[22]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[23]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[24]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[25]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[26]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[27]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[28]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[29]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[2]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[30]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[31]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[3]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[4]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[5]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[6]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[7]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[8]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[9]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[0]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[10]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[11]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[12]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[13]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[14]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[15]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[16]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[17]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[18]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[19]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[1]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[20]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[21]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[22]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[23]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[24]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[25]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[26]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[27]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[28]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[29]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[2]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[30]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[31]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[3]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[4]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[5]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[6]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[7]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[8]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[9]" tap_mode="probeonly" type="output pin"/>
+          <wire name="reset" tap_mode="probeonly" type="input pin"/>
+          <wire name="write_data_out[0]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[10]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[11]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[12]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[13]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[14]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[15]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[16]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[17]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[18]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[19]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[1]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[20]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[21]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[22]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[23]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[24]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[25]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[26]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[27]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[28]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[29]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[2]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[30]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[31]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[3]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[4]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[5]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[6]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[7]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[8]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[9]" tap_mode="probeonly" type="output pin"/>
+        </trigger_input_vec>
+        <data_input_vec>
+          <wire name="ALU_result_out[0]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[10]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[11]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[12]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[13]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[14]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[15]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[16]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[17]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[18]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[19]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[1]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[20]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[21]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[22]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[23]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[24]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[25]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[26]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[27]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[28]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[29]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[2]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[30]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[31]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[3]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[4]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[5]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[6]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[7]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[8]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[9]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Branch_out" tap_mode="probeonly" type="output pin"/>
+          <wire name="Execute:EXE|ALU_ctl[0]" tap_mode="probeonly" type="combinatorial"/>
+          <wire name="Execute:EXE|ALU_ctl[1]" tap_mode="probeonly" type="combinatorial"/>
+          <wire name="Execute:EXE|ALU_ctl[2]" tap_mode="probeonly" type="combinatorial"/>
+          <wire name="HEX0_out[0]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX0_out[1]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX0_out[2]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX0_out[3]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX0_out[4]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX0_out[5]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX0_out[6]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX1_out[0]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX1_out[1]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX1_out[2]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX1_out[3]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX1_out[4]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX1_out[5]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX1_out[6]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX2_out[0]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX2_out[1]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX2_out[2]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX2_out[3]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX2_out[4]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX2_out[5]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX2_out[6]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX3_out[0]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX3_out[1]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX3_out[2]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX3_out[3]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX3_out[4]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX3_out[5]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX3_out[6]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="Instruction_out[0]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[10]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[11]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[12]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[13]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[14]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[15]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[16]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[17]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[18]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[19]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[1]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[20]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[21]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[22]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[23]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[24]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[25]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[26]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[27]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[28]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[29]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[2]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[30]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[31]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[3]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[4]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[5]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[6]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[7]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[8]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[9]" tap_mode="probeonly" type="output pin"/>
+          <wire name="LEDG_out[0]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="LEDG_out[1]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="LEDG_out[2]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="LEDG_out[3]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="LEDG_out[4]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="LEDG_out[5]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="LEDG_out[6]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="LEDG_out[7]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="LEDR_out[0]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="LEDR_out[1]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="LEDR_out[2]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="LEDR_out[3]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="LEDR_out[4]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="LEDR_out[5]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="LEDR_out[6]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="LEDR_out[7]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="Memwrite_out" tap_mode="probeonly" type="output pin"/>
+          <wire name="PC[0]" tap_mode="probeonly" type="output pin"/>
+          <wire name="PC[1]" tap_mode="probeonly" type="output pin"/>
+          <wire name="PC[2]" tap_mode="probeonly" type="output pin"/>
+          <wire name="PC[3]" tap_mode="probeonly" type="output pin"/>
+          <wire name="PC[4]" tap_mode="probeonly" type="output pin"/>
+          <wire name="PC[5]" tap_mode="probeonly" type="output pin"/>
+          <wire name="PC[6]" tap_mode="probeonly" type="output pin"/>
+          <wire name="PC[7]" tap_mode="probeonly" type="output pin"/>
+          <wire name="PC[8]" tap_mode="probeonly" type="output pin"/>
+          <wire name="PC[9]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Regwrite_out" tap_mode="probeonly" type="output pin"/>
+          <wire name="Switches[0]" tap_mode="probeonly" type="input pin"/>
+          <wire name="Switches[1]" tap_mode="probeonly" type="input pin"/>
+          <wire name="Switches[2]" tap_mode="probeonly" type="input pin"/>
+          <wire name="Switches[3]" tap_mode="probeonly" type="input pin"/>
+          <wire name="Switches[4]" tap_mode="probeonly" type="input pin"/>
+          <wire name="Switches[5]" tap_mode="probeonly" type="input pin"/>
+          <wire name="Switches[6]" tap_mode="probeonly" type="input pin"/>
+          <wire name="Switches[7]" tap_mode="probeonly" type="input pin"/>
+          <wire name="Zero_out" tap_mode="probeonly" type="output pin"/>
+          <wire name="control:CTL|ALUSrc" tap_mode="probeonly" type="combinatorial"/>
+          <wire name="control:CTL|RegWrite" tap_mode="probeonly" type="combinatorial"/>
+          <wire name="read_data_1_out[0]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[10]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[11]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[12]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[13]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[14]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[15]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[16]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[17]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[18]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[19]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[1]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[20]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[21]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[22]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[23]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[24]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[25]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[26]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[27]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[28]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[29]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[2]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[30]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[31]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[3]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[4]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[5]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[6]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[7]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[8]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[9]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[0]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[10]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[11]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[12]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[13]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[14]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[15]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[16]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[17]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[18]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[19]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[1]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[20]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[21]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[22]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[23]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[24]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[25]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[26]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[27]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[28]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[29]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[2]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[30]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[31]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[3]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[4]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[5]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[6]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[7]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[8]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[9]" tap_mode="probeonly" type="output pin"/>
+          <wire name="reset" tap_mode="probeonly" type="input pin"/>
+          <wire name="write_data_out[0]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[10]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[11]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[12]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[13]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[14]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[15]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[16]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[17]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[18]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[19]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[1]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[20]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[21]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[22]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[23]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[24]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[25]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[26]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[27]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[28]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[29]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[2]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[30]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[31]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[3]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[4]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[5]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[6]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[7]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[8]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[9]" tap_mode="probeonly" type="output pin"/>
+        </data_input_vec>
+        <storage_qualifier_input_vec>
+          <wire name="ALU_result_out[0]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[10]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[11]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[12]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[13]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[14]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[15]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[16]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[17]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[18]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[19]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[1]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[20]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[21]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[22]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[23]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[24]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[25]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[26]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[27]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[28]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[29]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[2]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[30]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[31]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[3]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[4]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[5]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[6]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[7]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[8]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[9]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Branch_out" tap_mode="probeonly" type="output pin"/>
+          <wire name="Execute:EXE|ALU_ctl[0]" tap_mode="probeonly" type="combinatorial"/>
+          <wire name="Execute:EXE|ALU_ctl[1]" tap_mode="probeonly" type="combinatorial"/>
+          <wire name="Execute:EXE|ALU_ctl[2]" tap_mode="probeonly" type="combinatorial"/>
+          <wire name="HEX0_out[0]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX0_out[1]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX0_out[2]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX0_out[3]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX0_out[4]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX0_out[5]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX0_out[6]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX1_out[0]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX1_out[1]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX1_out[2]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX1_out[3]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX1_out[4]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX1_out[5]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX1_out[6]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX2_out[0]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX2_out[1]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX2_out[2]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX2_out[3]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX2_out[4]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX2_out[5]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX2_out[6]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX3_out[0]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX3_out[1]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX3_out[2]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX3_out[3]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX3_out[4]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX3_out[5]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="HEX3_out[6]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="Instruction_out[0]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[10]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[11]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[12]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[13]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[14]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[15]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[16]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[17]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[18]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[19]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[1]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[20]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[21]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[22]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[23]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[24]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[25]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[26]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[27]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[28]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[29]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[2]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[30]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[31]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[3]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[4]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[5]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[6]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[7]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[8]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[9]" tap_mode="probeonly" type="output pin"/>
+          <wire name="LEDG_out[0]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="LEDG_out[1]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="LEDG_out[2]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="LEDG_out[3]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="LEDG_out[4]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="LEDG_out[5]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="LEDG_out[6]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="LEDG_out[7]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="LEDR_out[0]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="LEDR_out[1]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="LEDR_out[2]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="LEDR_out[3]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="LEDR_out[4]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="LEDR_out[5]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="LEDR_out[6]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="LEDR_out[7]$latch" tap_mode="probeonly" type="register"/>
+          <wire name="Memwrite_out" tap_mode="probeonly" type="output pin"/>
+          <wire name="PC[0]" tap_mode="probeonly" type="output pin"/>
+          <wire name="PC[1]" tap_mode="probeonly" type="output pin"/>
+          <wire name="PC[2]" tap_mode="probeonly" type="output pin"/>
+          <wire name="PC[3]" tap_mode="probeonly" type="output pin"/>
+          <wire name="PC[4]" tap_mode="probeonly" type="output pin"/>
+          <wire name="PC[5]" tap_mode="probeonly" type="output pin"/>
+          <wire name="PC[6]" tap_mode="probeonly" type="output pin"/>
+          <wire name="PC[7]" tap_mode="probeonly" type="output pin"/>
+          <wire name="PC[8]" tap_mode="probeonly" type="output pin"/>
+          <wire name="PC[9]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Regwrite_out" tap_mode="probeonly" type="output pin"/>
+          <wire name="Switches[0]" tap_mode="probeonly" type="input pin"/>
+          <wire name="Switches[1]" tap_mode="probeonly" type="input pin"/>
+          <wire name="Switches[2]" tap_mode="probeonly" type="input pin"/>
+          <wire name="Switches[3]" tap_mode="probeonly" type="input pin"/>
+          <wire name="Switches[4]" tap_mode="probeonly" type="input pin"/>
+          <wire name="Switches[5]" tap_mode="probeonly" type="input pin"/>
+          <wire name="Switches[6]" tap_mode="probeonly" type="input pin"/>
+          <wire name="Switches[7]" tap_mode="probeonly" type="input pin"/>
+          <wire name="Zero_out" tap_mode="probeonly" type="output pin"/>
+          <wire name="control:CTL|ALUSrc" tap_mode="probeonly" type="combinatorial"/>
+          <wire name="control:CTL|RegWrite" tap_mode="probeonly" type="combinatorial"/>
+          <wire name="read_data_1_out[0]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[10]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[11]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[12]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[13]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[14]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[15]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[16]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[17]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[18]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[19]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[1]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[20]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[21]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[22]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[23]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[24]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[25]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[26]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[27]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[28]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[29]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[2]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[30]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[31]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[3]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[4]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[5]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[6]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[7]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[8]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[9]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[0]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[10]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[11]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[12]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[13]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[14]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[15]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[16]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[17]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[18]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[19]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[1]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[20]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[21]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[22]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[23]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[24]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[25]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[26]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[27]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[28]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[29]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[2]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[30]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[31]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[3]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[4]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[5]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[6]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[7]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[8]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[9]" tap_mode="probeonly" type="output pin"/>
+          <wire name="reset" tap_mode="probeonly" type="input pin"/>
+          <wire name="write_data_out[0]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[10]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[11]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[12]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[13]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[14]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[15]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[16]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[17]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[18]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[19]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[1]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[20]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[21]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[22]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[23]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[24]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[25]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[26]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[27]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[28]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[29]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[2]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[30]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[31]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[3]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[4]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[5]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[6]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[7]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[8]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[9]" tap_mode="probeonly" type="output pin"/>
+        </storage_qualifier_input_vec>
+      </signal_vec>
+      <presentation>
+        <data_view>
+          <bus is_signal_inverted="no" link="all" name="ALU_result_out" order="msb_to_lsb" radix="hex" state="collapse" type="output pin">
+            <net is_signal_inverted="no" name="ALU_result_out[31]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[30]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[29]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[28]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[27]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[26]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[25]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[24]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[23]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[22]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[21]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[20]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[19]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[18]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[17]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[16]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[15]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[14]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[13]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[12]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[11]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[10]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[9]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[8]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[7]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[6]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[5]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[4]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[3]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[2]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[1]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[0]"/>
+          </bus>
+          <net is_signal_inverted="no" name="Branch_out"/>
+          <bus is_signal_inverted="no" link="all" name="Instruction_out" order="msb_to_lsb" radix="hex" state="collapse" type="output pin">
+            <net is_signal_inverted="no" name="Instruction_out[31]"/>
+            <net is_signal_inverted="no" name="Instruction_out[30]"/>
+            <net is_signal_inverted="no" name="Instruction_out[29]"/>
+            <net is_signal_inverted="no" name="Instruction_out[28]"/>
+            <net is_signal_inverted="no" name="Instruction_out[27]"/>
+            <net is_signal_inverted="no" name="Instruction_out[26]"/>
+            <net is_signal_inverted="no" name="Instruction_out[25]"/>
+            <net is_signal_inverted="no" name="Instruction_out[24]"/>
+            <net is_signal_inverted="no" name="Instruction_out[23]"/>
+            <net is_signal_inverted="no" name="Instruction_out[22]"/>
+            <net is_signal_inverted="no" name="Instruction_out[21]"/>
+            <net is_signal_inverted="no" name="Instruction_out[20]"/>
+            <net is_signal_inverted="no" name="Instruction_out[19]"/>
+            <net is_signal_inverted="no" name="Instruction_out[18]"/>
+            <net is_signal_inverted="no" name="Instruction_out[17]"/>
+            <net is_signal_inverted="no" name="Instruction_out[16]"/>
+            <net is_signal_inverted="no" name="Instruction_out[15]"/>
+            <net is_signal_inverted="no" name="Instruction_out[14]"/>
+            <net is_signal_inverted="no" name="Instruction_out[13]"/>
+            <net is_signal_inverted="no" name="Instruction_out[12]"/>
+            <net is_signal_inverted="no" name="Instruction_out[11]"/>
+            <net is_signal_inverted="no" name="Instruction_out[10]"/>
+            <net is_signal_inverted="no" name="Instruction_out[9]"/>
+            <net is_signal_inverted="no" name="Instruction_out[8]"/>
+            <net is_signal_inverted="no" name="Instruction_out[7]"/>
+            <net is_signal_inverted="no" name="Instruction_out[6]"/>
+            <net is_signal_inverted="no" name="Instruction_out[5]"/>
+            <net is_signal_inverted="no" name="Instruction_out[4]"/>
+            <net is_signal_inverted="no" name="Instruction_out[3]"/>
+            <net is_signal_inverted="no" name="Instruction_out[2]"/>
+            <net is_signal_inverted="no" name="Instruction_out[1]"/>
+            <net is_signal_inverted="no" name="Instruction_out[0]"/>
+          </bus>
+          <net is_signal_inverted="no" name="Memwrite_out"/>
+          <bus is_signal_inverted="no" link="all" name="PC" order="msb_to_lsb" radix="hex" state="collapse" type="output pin">
+            <net is_signal_inverted="no" name="PC[9]"/>
+            <net is_signal_inverted="no" name="PC[8]"/>
+            <net is_signal_inverted="no" name="PC[7]"/>
+            <net is_signal_inverted="no" name="PC[6]"/>
+            <net is_signal_inverted="no" name="PC[5]"/>
+            <net is_signal_inverted="no" name="PC[4]"/>
+            <net is_signal_inverted="no" name="PC[3]"/>
+            <net is_signal_inverted="no" name="PC[2]"/>
+            <net is_signal_inverted="no" name="PC[1]"/>
+            <net is_signal_inverted="no" name="PC[0]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="read_data_1_out" order="msb_to_lsb" radix="hex" state="collapse" type="output pin">
+            <net is_signal_inverted="no" name="read_data_1_out[31]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[30]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[29]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[28]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[27]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[26]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[25]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[24]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[23]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[22]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[21]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[20]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[19]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[18]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[17]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[16]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[15]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[14]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[13]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[12]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[11]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[10]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[9]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[8]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[7]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[6]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[5]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[4]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[3]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[2]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[1]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[0]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="read_data_2_out" order="msb_to_lsb" radix="hex" state="collapse" type="output pin">
+            <net is_signal_inverted="no" name="read_data_2_out[31]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[30]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[29]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[28]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[27]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[26]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[25]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[24]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[23]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[22]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[21]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[20]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[19]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[18]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[17]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[16]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[15]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[14]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[13]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[12]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[11]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[10]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[9]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[8]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[7]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[6]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[5]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[4]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[3]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[2]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[1]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[0]"/>
+          </bus>
+          <net is_signal_inverted="no" name="Regwrite_out"/>
+          <net is_signal_inverted="no" name="reset"/>
+          <bus is_signal_inverted="no" link="all" name="write_data_out" order="msb_to_lsb" radix="hex" state="collapse" type="output pin">
+            <net is_signal_inverted="no" name="write_data_out[31]"/>
+            <net is_signal_inverted="no" name="write_data_out[30]"/>
+            <net is_signal_inverted="no" name="write_data_out[29]"/>
+            <net is_signal_inverted="no" name="write_data_out[28]"/>
+            <net is_signal_inverted="no" name="write_data_out[27]"/>
+            <net is_signal_inverted="no" name="write_data_out[26]"/>
+            <net is_signal_inverted="no" name="write_data_out[25]"/>
+            <net is_signal_inverted="no" name="write_data_out[24]"/>
+            <net is_signal_inverted="no" name="write_data_out[23]"/>
+            <net is_signal_inverted="no" name="write_data_out[22]"/>
+            <net is_signal_inverted="no" name="write_data_out[21]"/>
+            <net is_signal_inverted="no" name="write_data_out[20]"/>
+            <net is_signal_inverted="no" name="write_data_out[19]"/>
+            <net is_signal_inverted="no" name="write_data_out[18]"/>
+            <net is_signal_inverted="no" name="write_data_out[17]"/>
+            <net is_signal_inverted="no" name="write_data_out[16]"/>
+            <net is_signal_inverted="no" name="write_data_out[15]"/>
+            <net is_signal_inverted="no" name="write_data_out[14]"/>
+            <net is_signal_inverted="no" name="write_data_out[13]"/>
+            <net is_signal_inverted="no" name="write_data_out[12]"/>
+            <net is_signal_inverted="no" name="write_data_out[11]"/>
+            <net is_signal_inverted="no" name="write_data_out[10]"/>
+            <net is_signal_inverted="no" name="write_data_out[9]"/>
+            <net is_signal_inverted="no" name="write_data_out[8]"/>
+            <net is_signal_inverted="no" name="write_data_out[7]"/>
+            <net is_signal_inverted="no" name="write_data_out[6]"/>
+            <net is_signal_inverted="no" name="write_data_out[5]"/>
+            <net is_signal_inverted="no" name="write_data_out[4]"/>
+            <net is_signal_inverted="no" name="write_data_out[3]"/>
+            <net is_signal_inverted="no" name="write_data_out[2]"/>
+            <net is_signal_inverted="no" name="write_data_out[1]"/>
+            <net is_signal_inverted="no" name="write_data_out[0]"/>
+          </bus>
+          <net is_signal_inverted="no" name="Zero_out"/>
+          <net is_signal_inverted="no" name="control:CTL|ALUSrc"/>
+          <net is_signal_inverted="no" name="control:CTL|RegWrite"/>
+          <bus is_signal_inverted="no" link="all" name="Execute:EXE|ALU_ctl" order="msb_to_lsb" radix="hex" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="Execute:EXE|ALU_ctl[2]"/>
+            <net is_signal_inverted="no" name="Execute:EXE|ALU_ctl[1]"/>
+            <net is_signal_inverted="no" name="Execute:EXE|ALU_ctl[0]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="HEX0_out[0..6]" order="lsb_to_msb" radix="hex" state="collapse" type="register">
+            <net is_signal_inverted="no" name="HEX0_out[0]$latch"/>
+            <net is_signal_inverted="no" name="HEX0_out[1]$latch"/>
+            <net is_signal_inverted="no" name="HEX0_out[2]$latch"/>
+            <net is_signal_inverted="no" name="HEX0_out[3]$latch"/>
+            <net is_signal_inverted="no" name="HEX0_out[4]$latch"/>
+            <net is_signal_inverted="no" name="HEX0_out[5]$latch"/>
+            <net is_signal_inverted="no" name="HEX0_out[6]$latch"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="HEX1_out[0..6]" order="lsb_to_msb" radix="hex" state="collapse" type="register">
+            <net is_signal_inverted="no" name="HEX1_out[0]$latch"/>
+            <net is_signal_inverted="no" name="HEX1_out[1]$latch"/>
+            <net is_signal_inverted="no" name="HEX1_out[2]$latch"/>
+            <net is_signal_inverted="no" name="HEX1_out[3]$latch"/>
+            <net is_signal_inverted="no" name="HEX1_out[4]$latch"/>
+            <net is_signal_inverted="no" name="HEX1_out[5]$latch"/>
+            <net is_signal_inverted="no" name="HEX1_out[6]$latch"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="HEX2_out[0..6]" order="lsb_to_msb" radix="hex" state="collapse" type="register">
+            <net is_signal_inverted="no" name="HEX2_out[0]$latch"/>
+            <net is_signal_inverted="no" name="HEX2_out[1]$latch"/>
+            <net is_signal_inverted="no" name="HEX2_out[2]$latch"/>
+            <net is_signal_inverted="no" name="HEX2_out[3]$latch"/>
+            <net is_signal_inverted="no" name="HEX2_out[4]$latch"/>
+            <net is_signal_inverted="no" name="HEX2_out[5]$latch"/>
+            <net is_signal_inverted="no" name="HEX2_out[6]$latch"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="HEX3_out[0..6]" order="lsb_to_msb" radix="hex" state="collapse" type="register">
+            <net is_signal_inverted="no" name="HEX3_out[0]$latch"/>
+            <net is_signal_inverted="no" name="HEX3_out[1]$latch"/>
+            <net is_signal_inverted="no" name="HEX3_out[2]$latch"/>
+            <net is_signal_inverted="no" name="HEX3_out[3]$latch"/>
+            <net is_signal_inverted="no" name="HEX3_out[4]$latch"/>
+            <net is_signal_inverted="no" name="HEX3_out[5]$latch"/>
+            <net is_signal_inverted="no" name="HEX3_out[6]$latch"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="LEDG_out[0..7]" order="lsb_to_msb" radix="hex" state="collapse" type="register">
+            <net is_signal_inverted="no" name="LEDG_out[0]$latch"/>
+            <net is_signal_inverted="no" name="LEDG_out[1]$latch"/>
+            <net is_signal_inverted="no" name="LEDG_out[2]$latch"/>
+            <net is_signal_inverted="no" name="LEDG_out[3]$latch"/>
+            <net is_signal_inverted="no" name="LEDG_out[4]$latch"/>
+            <net is_signal_inverted="no" name="LEDG_out[5]$latch"/>
+            <net is_signal_inverted="no" name="LEDG_out[6]$latch"/>
+            <net is_signal_inverted="no" name="LEDG_out[7]$latch"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="LEDR_out[0..7]" order="lsb_to_msb" radix="hex" state="collapse" type="register">
+            <net is_signal_inverted="no" name="LEDR_out[0]$latch"/>
+            <net is_signal_inverted="no" name="LEDR_out[1]$latch"/>
+            <net is_signal_inverted="no" name="LEDR_out[2]$latch"/>
+            <net is_signal_inverted="no" name="LEDR_out[3]$latch"/>
+            <net is_signal_inverted="no" name="LEDR_out[4]$latch"/>
+            <net is_signal_inverted="no" name="LEDR_out[5]$latch"/>
+            <net is_signal_inverted="no" name="LEDR_out[6]$latch"/>
+            <net is_signal_inverted="no" name="LEDR_out[7]$latch"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="Switches[0..7]" order="lsb_to_msb" radix="hex" state="collapse" type="input pin">
+            <net is_signal_inverted="no" name="Switches[0]"/>
+            <net is_signal_inverted="no" name="Switches[1]"/>
+            <net is_signal_inverted="no" name="Switches[2]"/>
+            <net is_signal_inverted="no" name="Switches[3]"/>
+            <net is_signal_inverted="no" name="Switches[4]"/>
+            <net is_signal_inverted="no" name="Switches[5]"/>
+            <net is_signal_inverted="no" name="Switches[6]"/>
+            <net is_signal_inverted="no" name="Switches[7]"/>
+          </bus>
+        </data_view>
+        <setup_view>
+          <bus is_signal_inverted="no" link="all" name="ALU_result_out" order="msb_to_lsb" radix="hex" state="collapse" type="output pin">
+            <net is_signal_inverted="no" name="ALU_result_out[31]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[30]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[29]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[28]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[27]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[26]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[25]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[24]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[23]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[22]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[21]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[20]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[19]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[18]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[17]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[16]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[15]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[14]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[13]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[12]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[11]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[10]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[9]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[8]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[7]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[6]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[5]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[4]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[3]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[2]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[1]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[0]"/>
+          </bus>
+          <net is_signal_inverted="no" name="Branch_out"/>
+          <bus is_signal_inverted="no" link="all" name="Instruction_out" order="msb_to_lsb" radix="hex" state="collapse" type="output pin">
+            <net is_signal_inverted="no" name="Instruction_out[31]"/>
+            <net is_signal_inverted="no" name="Instruction_out[30]"/>
+            <net is_signal_inverted="no" name="Instruction_out[29]"/>
+            <net is_signal_inverted="no" name="Instruction_out[28]"/>
+            <net is_signal_inverted="no" name="Instruction_out[27]"/>
+            <net is_signal_inverted="no" name="Instruction_out[26]"/>
+            <net is_signal_inverted="no" name="Instruction_out[25]"/>
+            <net is_signal_inverted="no" name="Instruction_out[24]"/>
+            <net is_signal_inverted="no" name="Instruction_out[23]"/>
+            <net is_signal_inverted="no" name="Instruction_out[22]"/>
+            <net is_signal_inverted="no" name="Instruction_out[21]"/>
+            <net is_signal_inverted="no" name="Instruction_out[20]"/>
+            <net is_signal_inverted="no" name="Instruction_out[19]"/>
+            <net is_signal_inverted="no" name="Instruction_out[18]"/>
+            <net is_signal_inverted="no" name="Instruction_out[17]"/>
+            <net is_signal_inverted="no" name="Instruction_out[16]"/>
+            <net is_signal_inverted="no" name="Instruction_out[15]"/>
+            <net is_signal_inverted="no" name="Instruction_out[14]"/>
+            <net is_signal_inverted="no" name="Instruction_out[13]"/>
+            <net is_signal_inverted="no" name="Instruction_out[12]"/>
+            <net is_signal_inverted="no" name="Instruction_out[11]"/>
+            <net is_signal_inverted="no" name="Instruction_out[10]"/>
+            <net is_signal_inverted="no" name="Instruction_out[9]"/>
+            <net is_signal_inverted="no" name="Instruction_out[8]"/>
+            <net is_signal_inverted="no" name="Instruction_out[7]"/>
+            <net is_signal_inverted="no" name="Instruction_out[6]"/>
+            <net is_signal_inverted="no" name="Instruction_out[5]"/>
+            <net is_signal_inverted="no" name="Instruction_out[4]"/>
+            <net is_signal_inverted="no" name="Instruction_out[3]"/>
+            <net is_signal_inverted="no" name="Instruction_out[2]"/>
+            <net is_signal_inverted="no" name="Instruction_out[1]"/>
+            <net is_signal_inverted="no" name="Instruction_out[0]"/>
+          </bus>
+          <net is_signal_inverted="no" name="Memwrite_out"/>
+          <bus is_signal_inverted="no" link="all" name="PC" order="msb_to_lsb" radix="hex" state="collapse" type="output pin">
+            <net is_signal_inverted="no" name="PC[9]"/>
+            <net is_signal_inverted="no" name="PC[8]"/>
+            <net is_signal_inverted="no" name="PC[7]"/>
+            <net is_signal_inverted="no" name="PC[6]"/>
+            <net is_signal_inverted="no" name="PC[5]"/>
+            <net is_signal_inverted="no" name="PC[4]"/>
+            <net is_signal_inverted="no" name="PC[3]"/>
+            <net is_signal_inverted="no" name="PC[2]"/>
+            <net is_signal_inverted="no" name="PC[1]"/>
+            <net is_signal_inverted="no" name="PC[0]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="read_data_1_out" order="msb_to_lsb" radix="hex" state="collapse" type="output pin">
+            <net is_signal_inverted="no" name="read_data_1_out[31]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[30]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[29]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[28]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[27]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[26]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[25]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[24]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[23]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[22]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[21]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[20]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[19]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[18]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[17]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[16]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[15]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[14]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[13]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[12]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[11]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[10]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[9]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[8]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[7]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[6]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[5]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[4]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[3]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[2]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[1]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[0]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="read_data_2_out" order="msb_to_lsb" radix="hex" state="collapse" type="output pin">
+            <net is_signal_inverted="no" name="read_data_2_out[31]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[30]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[29]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[28]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[27]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[26]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[25]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[24]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[23]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[22]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[21]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[20]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[19]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[18]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[17]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[16]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[15]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[14]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[13]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[12]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[11]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[10]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[9]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[8]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[7]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[6]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[5]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[4]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[3]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[2]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[1]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[0]"/>
+          </bus>
+          <net is_signal_inverted="no" name="Regwrite_out"/>
+          <net is_signal_inverted="no" name="reset"/>
+          <bus is_signal_inverted="no" link="all" name="write_data_out" order="msb_to_lsb" radix="hex" state="collapse" type="output pin">
+            <net is_signal_inverted="no" name="write_data_out[31]"/>
+            <net is_signal_inverted="no" name="write_data_out[30]"/>
+            <net is_signal_inverted="no" name="write_data_out[29]"/>
+            <net is_signal_inverted="no" name="write_data_out[28]"/>
+            <net is_signal_inverted="no" name="write_data_out[27]"/>
+            <net is_signal_inverted="no" name="write_data_out[26]"/>
+            <net is_signal_inverted="no" name="write_data_out[25]"/>
+            <net is_signal_inverted="no" name="write_data_out[24]"/>
+            <net is_signal_inverted="no" name="write_data_out[23]"/>
+            <net is_signal_inverted="no" name="write_data_out[22]"/>
+            <net is_signal_inverted="no" name="write_data_out[21]"/>
+            <net is_signal_inverted="no" name="write_data_out[20]"/>
+            <net is_signal_inverted="no" name="write_data_out[19]"/>
+            <net is_signal_inverted="no" name="write_data_out[18]"/>
+            <net is_signal_inverted="no" name="write_data_out[17]"/>
+            <net is_signal_inverted="no" name="write_data_out[16]"/>
+            <net is_signal_inverted="no" name="write_data_out[15]"/>
+            <net is_signal_inverted="no" name="write_data_out[14]"/>
+            <net is_signal_inverted="no" name="write_data_out[13]"/>
+            <net is_signal_inverted="no" name="write_data_out[12]"/>
+            <net is_signal_inverted="no" name="write_data_out[11]"/>
+            <net is_signal_inverted="no" name="write_data_out[10]"/>
+            <net is_signal_inverted="no" name="write_data_out[9]"/>
+            <net is_signal_inverted="no" name="write_data_out[8]"/>
+            <net is_signal_inverted="no" name="write_data_out[7]"/>
+            <net is_signal_inverted="no" name="write_data_out[6]"/>
+            <net is_signal_inverted="no" name="write_data_out[5]"/>
+            <net is_signal_inverted="no" name="write_data_out[4]"/>
+            <net is_signal_inverted="no" name="write_data_out[3]"/>
+            <net is_signal_inverted="no" name="write_data_out[2]"/>
+            <net is_signal_inverted="no" name="write_data_out[1]"/>
+            <net is_signal_inverted="no" name="write_data_out[0]"/>
+          </bus>
+          <net is_signal_inverted="no" name="Zero_out"/>
+          <net is_signal_inverted="no" name="control:CTL|ALUSrc"/>
+          <net is_signal_inverted="no" name="control:CTL|RegWrite"/>
+          <bus is_signal_inverted="no" link="all" name="Execute:EXE|ALU_ctl" order="msb_to_lsb" radix="hex" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="Execute:EXE|ALU_ctl[2]"/>
+            <net is_signal_inverted="no" name="Execute:EXE|ALU_ctl[1]"/>
+            <net is_signal_inverted="no" name="Execute:EXE|ALU_ctl[0]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="Switches[0..7]" order="lsb_to_msb" radix="hex" state="collapse" type="input pin">
+            <net is_signal_inverted="no" name="Switches[0]"/>
+            <net is_signal_inverted="no" name="Switches[1]"/>
+            <net is_signal_inverted="no" name="Switches[2]"/>
+            <net is_signal_inverted="no" name="Switches[3]"/>
+            <net is_signal_inverted="no" name="Switches[4]"/>
+            <net is_signal_inverted="no" name="Switches[5]"/>
+            <net is_signal_inverted="no" name="Switches[6]"/>
+            <net is_signal_inverted="no" name="Switches[7]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="LEDG_out[0..7]" order="lsb_to_msb" radix="hex" state="collapse" type="register">
+            <net is_signal_inverted="no" name="LEDG_out[0]$latch"/>
+            <net is_signal_inverted="no" name="LEDG_out[1]$latch"/>
+            <net is_signal_inverted="no" name="LEDG_out[2]$latch"/>
+            <net is_signal_inverted="no" name="LEDG_out[3]$latch"/>
+            <net is_signal_inverted="no" name="LEDG_out[4]$latch"/>
+            <net is_signal_inverted="no" name="LEDG_out[5]$latch"/>
+            <net is_signal_inverted="no" name="LEDG_out[6]$latch"/>
+            <net is_signal_inverted="no" name="LEDG_out[7]$latch"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="LEDR_out[0..7]" order="lsb_to_msb" radix="hex" state="collapse" type="register">
+            <net is_signal_inverted="no" name="LEDR_out[0]$latch"/>
+            <net is_signal_inverted="no" name="LEDR_out[1]$latch"/>
+            <net is_signal_inverted="no" name="LEDR_out[2]$latch"/>
+            <net is_signal_inverted="no" name="LEDR_out[3]$latch"/>
+            <net is_signal_inverted="no" name="LEDR_out[4]$latch"/>
+            <net is_signal_inverted="no" name="LEDR_out[5]$latch"/>
+            <net is_signal_inverted="no" name="LEDR_out[6]$latch"/>
+            <net is_signal_inverted="no" name="LEDR_out[7]$latch"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="HEX0_out[0..6]" order="lsb_to_msb" radix="hex" state="collapse" type="register">
+            <net is_signal_inverted="no" name="HEX0_out[0]$latch"/>
+            <net is_signal_inverted="no" name="HEX0_out[1]$latch"/>
+            <net is_signal_inverted="no" name="HEX0_out[2]$latch"/>
+            <net is_signal_inverted="no" name="HEX0_out[3]$latch"/>
+            <net is_signal_inverted="no" name="HEX0_out[4]$latch"/>
+            <net is_signal_inverted="no" name="HEX0_out[5]$latch"/>
+            <net is_signal_inverted="no" name="HEX0_out[6]$latch"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="HEX1_out[0..6]" order="lsb_to_msb" radix="hex" state="collapse" type="register">
+            <net is_signal_inverted="no" name="HEX1_out[0]$latch"/>
+            <net is_signal_inverted="no" name="HEX1_out[1]$latch"/>
+            <net is_signal_inverted="no" name="HEX1_out[2]$latch"/>
+            <net is_signal_inverted="no" name="HEX1_out[3]$latch"/>
+            <net is_signal_inverted="no" name="HEX1_out[4]$latch"/>
+            <net is_signal_inverted="no" name="HEX1_out[5]$latch"/>
+            <net is_signal_inverted="no" name="HEX1_out[6]$latch"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="HEX2_out[0..6]" order="lsb_to_msb" radix="hex" state="collapse" type="register">
+            <net is_signal_inverted="no" name="HEX2_out[0]$latch"/>
+            <net is_signal_inverted="no" name="HEX2_out[1]$latch"/>
+            <net is_signal_inverted="no" name="HEX2_out[2]$latch"/>
+            <net is_signal_inverted="no" name="HEX2_out[3]$latch"/>
+            <net is_signal_inverted="no" name="HEX2_out[4]$latch"/>
+            <net is_signal_inverted="no" name="HEX2_out[5]$latch"/>
+            <net is_signal_inverted="no" name="HEX2_out[6]$latch"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="HEX3_out[0..6]" order="lsb_to_msb" radix="hex" state="collapse" type="register">
+            <net is_signal_inverted="no" name="HEX3_out[0]$latch"/>
+            <net is_signal_inverted="no" name="HEX3_out[1]$latch"/>
+            <net is_signal_inverted="no" name="HEX3_out[2]$latch"/>
+            <net is_signal_inverted="no" name="HEX3_out[3]$latch"/>
+            <net is_signal_inverted="no" name="HEX3_out[4]$latch"/>
+            <net is_signal_inverted="no" name="HEX3_out[5]$latch"/>
+            <net is_signal_inverted="no" name="HEX3_out[6]$latch"/>
+          </bus>
+        </setup_view>
+      </presentation>
+      <trigger CRC="524460DD" attribute_mem_mode="false" gap_record="true" global_temp="1" name="trigger: 2020/07/26 17:28:20  #0" position="pre" power_up_trigger_mode="false" record_data_gap="true" segment_size="256" storage_mode="off" storage_qualifier_disabled="no" storage_qualifier_port_is_pin="false" storage_qualifier_port_name="auto_stp_external_storage_qualifier" storage_qualifier_port_tap_mode="classic" trigger_in="dont_care" trigger_out="active high" trigger_type="circular">
+        <power_up_trigger position="pre" storage_qualifier_disabled="no" trigger_in="dont_care" trigger_out="active high"/>
+        <events use_custom_flow_control="no">
+          <level enabled="yes" name="condition1" type="basic">'reset' == rising edge
+            <power_up enabled="yes">
+            </power_up>
+            <op_node/>
+          </level>
+        </events>
+        <storage_qualifier_events>
+          <transitional>0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+            <pwr_up_transitional>0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</pwr_up_transitional>
+          </transitional>
+          <storage_qualifier_level type="basic">
+            <power_up>
+            </power_up>
+            <op_node/>
+          </storage_qualifier_level>
+          <storage_qualifier_level type="basic">
+            <power_up>
+            </power_up>
+            <op_node/>
+          </storage_qualifier_level>
+          <storage_qualifier_level type="basic">
+            <power_up>
+            </power_up>
+            <op_node/>
+          </storage_qualifier_level>
+        </storage_qualifier_events>
+        <log>
+          <data global_temp="1" name="log: 2020/07/26 17:28:20  #1" power_up_mode="false" sample_depth="256" trigger_position="32">1000000000000000000000000000000000000000001000000100000010000001100000010000100000000100000000001001100000000000000000000001000000000110000000000000000000000000000000010000000000000000000000000100000010000000000000000000000000000000100000000000000000000000000000000000000000100000010000001000000110000001000010000000010000000000100110000000000000000000000100000000011000000000000000000000000000000001000000000000000000000000010000001000000000000000000000000000000010000000000000000000000000000000000000000010000001000000100000011000000100001000000001000000000010011000000000000000000000010000000001100000000000000000000000000000000100000000000000000000000001000000100000000000000000000000000000001000000000000000000000000000000000000000001000000100000010000001100000010000100000000100000000001001100000000000000000000001000000000110000000000000000000000000000000010000000000000000000000000100000010000000000000000000000000000000100000000000000000000000000000000000000000100000010000001000000110000001000010000000010000000000100110000000000000000000000100000000011000000000000000000000000000000001000000000000000000000000010000001000000000000000000000000000000010000000000000000000000000000000000000000010000001000000100000011000000100001000000001000000000010011000000000000000000000010000000001100000000000000000000000000000000100000000000000000000000001000000100000000000000000000000000000001000000000000000000000000000000000000000001000000100000010000001100000010000100000000100000000001001100000000000000000000001000000000110000000000000000000000000000000010000000000000000000000000100000010000000000000000000000000000000100000000000000000000000000000000000000000100000010000001000000110000001000010000000010000000000100110000000000000000000000100000000011000000000000000000000000000000001000000000000000000000000010000001000000000000000000000000000000010000000000000000000000000000000000000000010000001000000100000011000000100001000000001000000000010011000000000000000000000010000000001100000000000000000000000000000000100000000000000000000000001000000100000000000000000000000000000001000000000000000000000000000000000000000001000000100000010000001100000010000100000000100000000001001100000000000000000000001000000000110000000000000000000000000000000010000000000000000000000000100000010000000000000000000000000000000100000000000000000000000000000000000000000100000010000001000000110000001000010000000010000000000100110000000000000000000000100000000011000000000000000000000000000000001000000000000000000000000010000001000000000000000000000000000000010000000000000000000000000000000000000000010000001000000100000011000000100001000000001000000000010011000000000000000000000010000000001100000000000000000000000000000000100000000000000000000000001000000100000000000000000000000000000001000000000000000000000000000000000000000001000000100000010000001100000010000100000000100000000001001100000000000000000000001000000000110000000000000000000000000000000010000000000000000000000000100000010000000000000000000000000000000100000000000000000000000000000000000000000100000010000001000000110000001000010000000010000000000100110000000000000000000000100000000011000000000000000000000000000000001000000000000000000000000010000001000000000000000000000000000000010000000000000000000000000000000000000000010000001000000100000011000000100001000000001000000000010011000000000000000000000010000000001100000000000000000000000000000000100000000000000000000000001000000100000000000000000000000000000001000000000000000000000000000000000000000001000000100000010000001100000010000100000000100000000001001100000000000000000000001000000000110000000000000000000000000000000010000000000000000000000000100000010000000000000000000000000000000100000000000000000000000000000000000000000100000010000001000000110000001000010000000010000000000100110000000000000000000000100000000011000000000000000000000000000000001000000000000000000000000010000001000000000000000000000000000000010000000000000000000000000000000000000000010000001000000100000011000000100001000000001000000000010011000000000000000000000010000000001100000000000000000000000000000000100000000000000000000000001000000100000000000000000000000000000001000000000000000000000000000000000000000001000000100000010000001100000010000100000000100000000001001100000000000000000000001000000000110000000000000000000000000000000010000000000000000000000000100000010000000000000000000000000000000100000000000000000000000000000000000000000100000010000001000000110000001000010000000010000000000100110000000000000000000000100000000011000000000000000000000000000000001000000000000000000000000010000001000000000000000000000000000000010000000000000000000000000000000000000000010000001000000100000011000000100001000000001000000000010011000000000000000000000010000000001100000000000000000000000000000000100000000000000000000000001000000100000000000000000000000000000001000000000000000000000000000000000000000001000000100000010000001100000010000100000000100000000001001100000000000000000000001000000000110000000000000000000000000000000010000000000000000000000000100000010000000000000000000000000000000100000000000000000000000000000000000000000100000010000001000000110000001000010000000010000000000100110000000000000000000000100000000011000000000000000000000000000000001000000000000000000000000010000001000000000000000000000000000000010000000000000000000000000000000000000000010000001000000100000011000000100001000000001000000000010011000000000000000000000010000000001100000000000000000000000000000000100000000000000000000000001000000100000000000000000000000000000001000000000000000000000000000000000000000001000000100000010000001100000010000100000000100000000001001100000000000000000000001000000000110000000000000000000000000000000010000000000000000000000000100000010000000000000000000000000000000100000000000000000000000000000000000000000100000010000001000000110000001000010000000010000000000100110000000000000000000000100000000011000000000000000000000000000000001000000000000000000000000010000001000000000000000000000000000000010000000000000000000000000000000000000000010000001000000100000011000000100001000000001000000000010011000000000000000000000010000000001100000000000000000000000000000000100000000000000000000000001000000100000000000000000000000000000001000000000000000000000000000000000000000001000000100000010000001100000010000100000000100000000001001100000000000000000000001000000000110000000000000000000000000000000010000000000000000000000000100000010000000000000000000000000000000100000000000000000000000000000000000000000100000010000001000000110000001000010000000010000000000100110000000000000000000000100000000011000000000000000000000000000000001000000000000000000000000010000001000000000000000000000000000000010000000000000000000000000000000000000000010000001000000100000011000000100001000000001000000000010011000000000000000000000010000000001100000000000000000000000000000000100000000000000000000000001000000100000000000000000000000000000001000000000000000000000000000000000000000001000000100000010000001100000010000100000000100000000001001100000000000000000000001000000000110000000000000000000000000000000010000000000000000000000000100000010000000000000000000000000000000100000000000000000000000000000000000000000100000010000001000000110000001000010000000010000000000100110000000000000000000000100000000011000000000000000000000000000000001000000000000000000000000010000001000000000000000000000000000000010000000000000000000000000000000000000000010000001000000100000011000000100001000000001000000000010011000000000000000000000010000000001100000000000000000000000000000000100000000000000000000000001000001100000000000000000000000000000000000100000000000000000000000000000000000001000000100000010000001000010000010000000000100000000001001100000000000000100000001000000000110000000000000000000000000000000000000000000000000000000001000000100001000000000000000000000000000000000000000000000000000000000000000000000100000010000001000000100100100000000000000000000010000100110000000000000001000000100000000101000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000001000000000000000000000000000000000000010000001000000100000010000100000001000000001000000000010011000000000000001100000010000000001100000000000000000000000000000000000000000000000000000000001000001000010000000000000000000000000000000100000000000000000100111000000000000001000000100000010000001000000000000100001000110011100001001100000000000000001000001000000000110000100000000000000000000000000000001000000000000000000000000000100001000000000000000001001110000000010000000000000000010011100000000000000100000010000001000000100000001101000000111000010000000100110000000000000010100000100000000011000010000000000000000010011100001000000000010000000000000100000010000000000000000000000000010000000001000000000000000000001110000000000000010000001000000100000010111111010100000011100101111111110011000000000000000110000010000000001100001000000000000000001001110000000000000001000000000000010000001100000000001000000000010010000000000000000000000000000000000000000000000001000000100000010000001001011001011011010000000010100001001100000000000000111000001000000000010000000000000000000000000010000010000000000100000000001001000000100000000000000000000000000000000000000000000000000000000000000001000000000100000010000001000000110000000000101011000100000000000100110000000000000000010000000000000100000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000001000000000000000000001110000000000000010000001000000100000010111111000001000010001100111111110011000000000000000011000010000000001100001000000000000000001001110000000010000000000000000010011100001000010000000000000000000011100001000000000000000000000000000000000000000001000000100000010000001000111000001100010000000010100001001100000000000000101100001000000000010000100000000000000000000000000000001000000000000000000001110000110000000000000000000000000000000000000000000000000000000000000001000000000100000010000001000000101111111000110111000101000111111100110000000000000001110000000000000100100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000000001000000000000000000001110000000000000010000001000000100000010000000110100000011100001000000010011000000000000001010000010000000001100001000000000000000000001110000000000000000000000000000001000001100000000001000000000010010000000000100000000000000000100011000000000000001000000100000010000001011111101010000001110010111111111001100000000000000011000001000000000110000100000000000000000000111000010000000000100000000001001000000100000000000100000000001001000000000000000000000000000000000000000000000000100000010000001000000100101100101101101000000001010000100110000000000000011100000100000000001100000000001000000000010010000000000000000010000000000100100000010000000000000000000000000000000000000000000000000000000000000000100000000010000001000000100000011000000000010101100010000000000010011000000000000000001000000000000010000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000100000000000000000100011000000000000001000000100000010000001011111100000100001000110011111111001100000000000000001100001000000000110000100000000000000000000111000000001000000000000000000001110000100001000000000000000001000110000100000000000000000000000000000000000000000100000010000001000000100011100000110001000000001010000100110000000000000010110000100000000001000010000000000000000000000000000000100000000000000000100011000011000000000000000000000000000000000000000000000000000000000000000100000000010000001000000100000010111111100011011100010100011111110011000000000000000111000000000000010010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000000000100000000000000000100011000000000000001000000100000010000001000000011010000001110000100000001001100000000000000101000001000000000110000100000000000000000100011000010000000000100000000001001000000100000000000100000000001001000000000010000000000000000000001100000000000000100000010000001000000101111110101000000111001011111111100110000000000000001100000100000000011000010000000000000000010001100000000000000010000000000100100000011000000000000000000000100100000000000000000000000000000000000000000000000010000001000000100000010010110010110110100000000101000010011000000000000001110000010000000000100000000000100000000001001000000100000000000000000000010010000001000000000000000000000000000000000000000000000000000000000000000010000000001000000100000010000001100000000001010110001000000000001001100000000000000000100000000000001000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000010000000000000000000001100000000000000100000010000001000000101111110000010000100011001111111100110000000000000000110000100000000011000010000000000000000010001100000000100000000000000000100011000010000100000000000000000000011000010000000000000000000000000000000000000000010000001000000100000010001110000011000100000000101000010011000000000000001011000010000000000100001000000000000000000000000000000010000000000000000000001100001100000000000000000000000000000000000000000000000000000000000000010000000001000000100000010000001011111110001101110001010001111111001100000000000000011100000000000001001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000000000010000000000000000000001100000000000000100000010000001000000100000001101000000111000010000000100110000000000000010100000100000000011000010000000000000000000001100000000000000010000000000100100000011000000000000000000000100100000000001000000000000000001001010000000000000010000001000000100000010111111010100000011100101111111110011000000000000000110000010000000001100001000000000000000000000110000100000000000000000000010010000001000000000000000000000010010000000000000000000000000000000000000000000000001000000100000010000001001011001011011010000000010100001001100000000000000111000001000000000011000000000000000000000100100000000000000000000000000001001000000100000000000000000000000000000000000000000000000000000000000000001000000000100000010000001000000110000000000101011000100000000000100110000000000000000010000000000000100000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000001000000000000000001001010000000000000010000001000000100000010111111000001000010001100111111110011000000000000000011000010000000001100001000000000000000000000110000000010000000000000000000001100001000010000000000000000010010100001000000000000000000000000000000000000000001000000100000010000001000111000001100010000000010100001001100000000000000101100001000000000010000100000000000000000000000000000001000000000000000001001010000110000000000000000000000000000000000000000000000000000000000000001000000000100000010000001000000101111111000110111000101000111111100110000000000000001110000000000000100100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000000001000000000000000001001010000000000000010000001000000100000010000000110100000011100001000000010011000000000000001010000010000000001100001000000000000000001001010000100000000000000000000010010000001000000000000000000000010010000000000100000000000000000000101000000000000001000000100000010000001011111101010000001110010111111111001100000000000000011000001000000000110000100000000000000000100101000000000000000000000000001001000000110000000000100000000000001000000000000000000000000000000000000000000000000100000010000001000000100101100101101101000000001010000100110000000000000011100000100000000001000000000000000000000010010000001000000000010000000000000100000010000000000000000000000000000000000000000000000000000000000000000100000000010000001000000100000011000000000010101100010000000000010011000000000000000001000000000000010000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000100000000000000000000101000000000000001000000100000010000001011111100000100001000110011111111001100000000000000001100001000000000110000100000000000000000100101000000001000000000000000001001010000100001000000000000000000001010000100000000000000000000000000000000000000000100000010000001000000100011100000110001000000001010000100110000000000000010110000100000000001000010000000000000000000000000000000100000000000000000000101000011000000000000000000000000000000000000000000000000000000000000000100000000010000001000000100000010111111100011011100010100011111110011000000000000000111000000000000010010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000000000100000000000000000000101000000000000001000000100000010000001000000011010000001110000100000001001100000000000000101000001000000000110000100000000000000000000101000000000000000000000000001001000000110000000000100000000000001000000000010000000000000000010000100000000000000100000010000001000000101111110101000000111001011111111100110000000000000001100000100000000011000010000000000000000000010100001000000000010000000000000100000010000000000010000000000000100000000000000000000000000000000000000000000000010000001000000100000010010110010110110100000000101000010011000000000000001110000010000000000110000000000100000000000001000000000000000001000000000000010000001000000000000000000000000000000000000000000000000000000000000000010000000001000000100000010000001100000000001010110001000000000001001100000000000000000100000000000001000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000010000000000000000010000100000000000000100000010000001000000101111110000010000100011001111111100110000000000000000110000100000000011000010000000000000000000010100000000100000000000000000000101000010000100000000000000000100001000010000000000000000000000000000000000000000010000001000000100000010001110000011000100000000101000010011000000000000001011000010000000000100001000000000000000000000000000000010000000000000000010000100001100000000000000000000000000000000000000000000000000000000000000010000000001000000100000010000001011111110001101110001010001111111001100000000000000011100000000000001001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000000000010000000000000000010000100000000000000100000010000001000000100000001101000000111000010000000100110000000000000010100000100000000011000010000000000000000010000100001000000000010000000000000100000010000000000010000000000000100000000001000000000000000000000010000000000000010000001000000100000010111111010100000011100101111111110011000000000000000110000010000000001100001000000000000000001000010000000000000001000000000000010000001100000000000000000000000010000000000000000000000000000000000000000000000001000000100000010000001001011001011011010000000010100001001100000000000000111000001000000000010000000000010000000000000100000010000000000000000000000001000000100000000000000000000000000000000000000000000000000000000000000001000000000100000010000001000000110000000000101011000100000000000100110000000000000000010000000000000100000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000001000000000000000000000010000000000000010000001000000100000010111111000001000010001100111111110011000000000000000011000010000000001100001000000000000000001000010000000010000000000000000010000100001000010000000000000000000000100001000000000000000000000000000000000000000001000000100000010000001000111000001100010000000010100001001100000000000000101100001000000000010000100000000000000000000000000000001000000000000000000000010000110000000000000000000000000000000000000000000000000000000000000001000000000100000010000001000000101111111000110111000101000111111100110000000000000001110000000000000100100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000000001000000000000000000000010000000000000010000001000000100000010000000110100000011100001000000010011000000000000001010000010000000001100001000000000000000000000010000000000000001000000000000010000001100000000000000000000000010000000000100000000000000000100110000000000000001000000100000010000001011111101010000001110010111111111001100000000000000011000001000000000110000100000000000000000000001000010000000000000000000000001000000100000000000000000000000001000000000000000000000000000000000000000000000000100000010000001000000100101100101101101000000001010000100110000000000000011100000100000000001100000000000000000000000010000000000000000000000000000000100000010000000000000000000000000000000000000000000000000000000000000000100000000010000001000000100000011000000000010101100010000000000010011000000000000000001000000000000010000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000100000000000000000100110000000000000001000000100000010000001011111100000100001000110011111111001100000000000000001100001000000000110000100000000000000000000001000000001000000000000000000000010000100001000000000000000001001100000100000000000000000000000000000000000000000100000010000001000000100011100000110001000000001010000100110000000000000010110000100000000001000010000000000000000000000000000000100000000000000000100110000011000000000000000000000000000000000000000000000000000000000000000100000000010000001000000100000010111111100011011100010100011111110011000000000000000111000000000000010010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000000000100000000000000000100110000000000000001000000100000010000001000000011010000001110000100000001001100000000000000101000001000000000110000100000000000000000100110000010000000000000000000000001000000100000000000000000000000001000000000010000000000000000000011000000000000000100000010000001000000101111110101000000111001011111111100110000000000000001100000100000000011000010000000000000000010011000000000000000000000000000000100000011000000000010000000000100000000000000000000000000000000000000000000000000010000001000000100000010010110010110110100000000101000010011000000000000001110000010000000000100000000000000000000000001000000100000000001000000000010000000001000000000000000000000000000000000000000000000000000000000000000010000000001000000100000010000001100000000001010110001000000000001001100000000000000000100000000000001000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000010000000000000000000011000000000000000100000010000001000000101111110000010000100011001111111100110000000000000000110000100000000011000010000000000000000010011000000000100000000000000000100110000010000100000000000000000000110000010000000000000000000000000000000000000000010000001000000100000010001110000011000100000000101000010011000000000000001011000010000000000100001000000000000000000000000000000010000000000000000000011000001100000000000000000000000000000000000000000000000000000000000000010000000001000000100000010000001011111110001101110001010001111111001100000000000000011100000000000001001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000000000010000000000000000000011000000000000000100000010000001000000100000001101000000111000010000000100110000000000000010100000100000000011000010000000000000000000011000000000000000000000000000000100000011000000000010000000000100000000000001000000000000000001000100000000000000010000001000000100000010111111010100000011100101111111110011000000000000000110000010000000001100001000000000000000000001100000100000000001000000000010000000001000000000001000000000010000000000000000000000000000000000000000000000000001000000100000010000001001011001011011010000000010100001001100000000000000111000001000000000011000000000010000000000100000000000000000000100000000001000000000100000000000000000000000000000000000000000000000000000000000000001000000000100000010000001000000110000000000101011000100000000000100110000000000000000010000000000000100000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000001000000000000000001000100000000000000010000001000000100000010111111000001000010001100111111110011000000000000000011000010000000001100001000000000000000000001100000000010000000000000000000011000001000010000000000000000010001000001000000000000000000000000000000000000000001000000100000010000001000111000001100010000000010100001001100000000000000101100001000000000010000100000000000000000000000000000001000000000000000001000100000110000000000000000000000000000000000000000000000000000000000000001000000000100000010000001000000101111111000110111000101000111111100110000000000000001110000000000000100100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000000001000000000000000001000100000000000000010000001000000100000010000000110100000011100001000000010011000000000000001010000010000000001100001000000000000000001000100000100000000001000000000010000000001000000000001000000000010000000000000100000000000000000000010000000000000001000000100000010000001011111101010000001110010111111111001100000000000000011000001000000000110000100000000000000000100010000000000000000100000000001000000000110000000000000000000001000000000000000000000000000000000000000000000000000100000010000001000000100101100101101101000000001010000100110000000000000011100000100000000001000000000001000000000010000000001000000000000000000000100000000010000000000000000000000000000000000000000000000000000000000000000100000000010000001000000100000011000000000010101100010000000000010011000000000000000001000000000000010000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000100000000000000000000010000000000000001000000100000010000001011111100000100001000110011111111001100000000000000001100001000000000110000100000000000000000100010000000001000000000000000001000100000100001000000000000000000000100000100000000000000000000000000000000000000000100000010000001000000100011100000110001000000001010000100110000000000000010110000100000000001000010000000000000000000000000000000100000000000000000000010000011000000000000000000000000000000000000000000000000000000000000000100000000010000001000000100000010111111100011011100010100011111110011000000000000000111000000000000010010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000000000100000000000000000000010000000000000001000000100000010000001000000011010000001110000100000001001100000000000000101000001000000000110000100000000000000000000010000000000000000100000000001000000000110000000000000000000001000000000000010000000000000000010010000000000000000100000010000001000000101111110101000000111001011111111100110000000000000001100000100000000011000010000000000000000000001000001000000000000000000000100000000010000000000000000000000100000000000000000000000000000000000000000000000000010000001000000100000010010110010110110100000000101000010011000000000000001110000010000000000110000000000000000000001000000000000000000000000000000010000000001000000000000000000000000000000000000000000000000000000000000000010000000001000000100000010000001100000000001010110001000000000001001100000000000000000100000000000001000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000010000000000000000010010000000000000000100000010000001000000101111110000010000100011001111111100110000000000000000110000100000000011000010000000000000000000001000000000100000000000000000000010000010000100000000000000000100100000010000000000000000000000000000000000000000010000001000000100000010001110000011000100000000101000010011000000000000001011000010000000000100001000000000000000000000000000000010000000000000000010010000001100000000000000000000000000000000000000000000000000000000000000010000000001000000100000010000001011111110001101110001010001111111001100000000000000011100000000000001001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000000000010000000000000000010010000000000000000100000010000001000000100000001101000000111000010000000100110000000000000010100000100000000011000010000000000000000010010000001000000000000000000000100000000010000000000000000000000100000000000001000000000000000000001000000000000000010000001000000100000010111111010100000011100101111111110011000000000000000110000010000000001100001000000000000000001001000000000000000000000000000010000000001100000000001000000000000000000000000000000000000000000000000000000000000001000000100000010000001001011001011011010000000010100001001100000000000000111000001000000000010000000000000000000000100000000010000000000100000000000000000000100000000000000000000000000000000000000000000000000000000000000001000000000100000010000001000000110000000000101011000100000000000100110000000000000000010000000000000100000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000001000000000000000000001000000000000000010000001000000100000010111111000001000010001100111111110011000000000000000011000010000000001100001000000000000000001001000000000010000000000000000010010000001000010000000000000000000010000001000000000000000000000000000000000000000001000000100000010000001000111000001100010000000010100001001100000000000000101100001000000000010000100000000000000000000000000000001000000000000000000001000000110000000000000000000000000000000000000000000000000000000000000001000000000100000010000001000000101111111000110111000101000111111100110000000000000001110000000000000100100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000000001000000000000000000001000000000000000010000001000000100000010000000110100000011100001000000010011000000000000001010000010000000001100001000000000000000000001000000000000000000000000000010000000001100000000001000000000000000000000000100000000000000000100000000000000000001000000100000010000001011111101010000001110010111111111001100000000000000011000001000000000110000100000000000000000000100000010000000000100000000000000000000100000000000100000000000000000000000000000000000000000000000000000000000000100000010000001000000100101100101101101000000001010000100110000000000000011100000100000000001100000000001000000000000000000000000000000010000000000000000000010000000000000000000000000000000000000000000000000000000000000000100000000010000001000000100000011000000000010101100010000000000010011000000000000000001000000000000010000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000100000000000000000100000000000000000001000000100000010000001011111100000100001000110011111111001100000000000000001100001000000000110000100000000000000000000100000000001000000000000000000001000000100001000000000000000001000000000100000000000000000000000000000000000000000100000010000001000000100011100000110001000000001010000100110000000000000010110000100000000001000010000000000000000000000000000000100000000000000000100000000011000000000000000000000000000000000000000000000000000000000000000100000000010000001000000100000010111111100011011100010100011111110011000000000000000111000000000000010010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000000000100000000000000000100000000000000000001000000100000010000001000000011010000001110000100000001001100000000000000101000001000000000110000100000000000000000100000000010000000000100000000000000000000100000000000100000000000000000000000010000000000000000000000000000000000000100000010000001000000101111110101000000111001011111111100110000000000000001100000100000000011000010000000000000000010000000000000000000010000000000000000000011000000000000000000000000000000000000000000000000000000000000000000000000010000001000000100000010010110010110110100000000101000010011000000000000001110000010000000000100000000000100000000000000000000100000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000010000000001000000100000010000001100000000001010110001000000000001001100000000000000000100000000000001000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000010000000000000000000000000000000000000100000010000001000000101111110000010000100011001111111100110000000000000000110000100000000011000010000000000000000010000000000000100000000000000000100000000010000100000000000000000000000000000000000000000000000000000000000000000000010000001000000100000010001110000011000100000000101000010011000000000000001011000010000000010100001000000000000000000000000000000010000000000000000000000000001000000000000000000000000000000001111111111111111111111111111111110000000001000000100000010000001011111110001101110001010001111111001100000000000000011100000000000000000000000000000000000000000000000010000000000000000000000000000000111111111111111111111111111111111111111111111111111111111111111111000000000100000010000001000000101111111000111001000100000111111100110000000000000011110000000000000000000000000000000000000000000000001000000000000000000000000000000011111111111111111111111111111111100000000000000000000000000000000000000000010000001000000100000010000000000001000010001000000000010011000000000000000000100010000000001100001000000000000000000000000000000010000000000000000000000000001000000000000000000000000000000001000000000000000000000000010000000000000001000000100000010000001000000010000110001000100001000001001100000000000000100010001000000000111000000000000000000000000000000010000000000000000000000000000000110000000000000000000000000100000000010000000000000000000000010000000000000100000010000001000000100001001101000000011000010001000100110000000000000001001000100000000011000000000000000000000000000000000000000000010000000000000000000010011101101000000000000000110110000001000000000000000000000000000000000000010000001000000100000010000100101100000000001000000000010011000000000000001100100010000000001100000000000000000000000000000000000000000000000000000000000000001000010000000000000000000000000000000100000000000000000000000000000000000001000000100000010000001000000000010010110110000100000001001100000000000000001010001000000000110000100000000000000000000000000000001000000000000000000000000000110000000000000000000000000000000001000000000000000000000000000000000000000100000010000001000000100100000001000000011010010000000100000000000000010010101000000000000010000000000000000000000000000000001000000000000000000000000000000010010000000000000000000000000000000100000000000000000001000000000000000000010000001000000100000010010000000100000001101101000000010000000000000001000110100000000000001000000000000000000000000000000000100000000000000000000000000000001001000000000000000000010000000000010000000000000000000000100000000001001111000000100000010000001001000000010000000110100110000001000000000000000100111010000000000000100000000000000000000000000000000010000000000000000000000000000000100100000000000000000000001000000001000000000000000000010010000000000100111100000010000001000000100100000001000000011011011000000100000000000000010000011000000000000010000000000000000000000000000000001000000000000000000000000000000010010000000000000000000100100000000100000000000000000000000100000000010011110000001000000100000010010000000100000001101001010000010000000000000001001001100000000000001000000000000000000000000000000000100000000000000000000000000000001001000000000000000000000001000000010000000000000000000100010000000001001111000000100000010000001001000000010000000110110101000001000000000000000100010110000000000000100000000000000000000000000000000010000000000000000000000000000000100100000000000000000001000100000100000000000000000000000000000000000100111100000010000001000000110000000000010000100010000000000100000000000000000011011000100000000011000000000000000000000000000000000000000000000000000000000000000011000000000000000000000000000000001111111111011111111110110111111100010011110000001000000100000010000000100011000010010100000000010000000000000000000011100000000000000010000000000000000000000000000000100000000000000000000000001000001011111111110111111111101101111110000100000000000000000100000000000001001111000000100000010000001000000010110010110000110000000001000000000000000000101110001000000000110000100000000000000000000000000000001000000000000000000000000000100001000000000000000001000000000000000000000000000000000000000000000100111100000010000001000000110100100000000000000000000010000100000000000000000001111000100000000101000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000010000000000000000000000000000000000010011110000001000000100000011000000100100100100001000000000010000000000000000001111100010000000001100000000000000000000000000000000000000000000000000000000000000001100000000000000000000000000000001000000000000000000000000000000000001001111000000100000010000001000101011011010010000000010100001000000000000000000000001001000000000011000000000000000000000000000000000111011010000000000000001101100110000000000000000000000000000000100000000000000000000000000000001000100111100000010000001000000101111110000100101000100000111111100000000000000000010000100000000000000100000000000000000000000000000000000000000000000000000000000000011000000000000000000000000000000000000000000000000000000000000000000010011110000001000000100000011000000000010000000100100110000010000000000000000000100010000000000010000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000010000000000000000000000001001111000000100000010000001100000010010010010000100000000001000000000000000000111110001000000000111000000000000000000000000000000010000000000000000000000000000000100000000000100000000000000000000100000000000000000000000000000000000100111100000010000001000000100010101101101001000000001010000100000000000000000000000100100000000001000000000001000000000000000000000011101101000000000000000110110011000000000000000000000000000000010000000000000000000000000000000100010011110000001000000100000010111111000010010100010000011111110000000000000000001000010000000000000010000000000000000000000000000000000000000000000000000000000000001100000000000000000000000000000000000000000000000000000000000000000001001111000000100000010000001100000000001000000010010011000001000000000000000000010001000000000001000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000100000000001000000000000000000000000100111100000010000001000000110000001001001001000010000000000100000000000000000011111000100000000011000000000001000000000000000000000000000000010000000000000000000011000000000010000000000000000000010000000000000000000000000000000000010011110000001000000100000010001010110110100100000000101000010000000000000000000000010010000000000110000000000100000000000000000000001110110100000000000000011011001100000000000000000000000000000001000000000000000000000000000000010001001111000000100000010000001011111100001001010001000001111111000000000000000000100001000000000000001000000000000000000000000000000000000000000000000000000000000000110000000000000000000000000000000000000000000000000000000000000000000100111100000010000001000000110000000000100000001001001100000100000000000000000001000100000000000100000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000001000000000000010011110000001000000100000011000000100100100100001000000000010000000000000000001111100010000000001110000000000100000000000000000000100000000001000000000000000000001000000000000000000000010000000001000000000000000000000000000000000001001111000000100000010000001000101011011010010000000010100001000000000000000000000001001000000000010000000000000000000000100000000000111011010000000000000001101100110000000000000000000000000000000100000000000000000000000000000001000100111100000010000001000000101111110000100101000100000111111100000000000000000010000100000000000000100000000000000000000000000000000000000000000000000000000000000011000000000000000000000000000000000000000000000000000000000000000000010011110000001000000100000011000000000010000000100100110000010000000000000000000100010000000000010000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000001000000000000000000000100000000000001001111000000100000010000001100000010010010010000100000000001000000000000000000111110001000000000110000000000000000000000100000000000000000000000000000001000000000110000000000000000000001000000000100000000000000000000000000000000000100111100000010000001000000100010101101101001000000001010000100000000000000000000000100100000000001100000000000000000000010000000000011101101000000000000000110110011000000000000000000000000000000010000000000000000000000000000000100010011110000001000000100000010111111000010010100010000011111110000000000000000001000010000000000000010000000000000000000000000000000000000000000000000000000000000001100000000000000000000000000000000000000000000000000000000000000000001001111000000100000010000001100000000001000000010010011000001000000000000000000010001000000000001000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000001000000000010000000000000100111100000010000001000000110000001001001001000010000000000100000000000000000011111000100000000011100000000000000000000010000000001000000000000000000000100000000010000000000010000000000100000000010000000000000000000000000000000000010011110000001000000100000010001010110110100100000000101000010000000000000000000000010010000000000100000000000100000000001000000000001110110100000000000000011011001100000000000000000000000000000001000000000000000000000000000000010001001111000000100000010000001011111100001001010001000001111111000000000000000000100001000000000000001000000000000000000000000000000000000000000000000000000000000000110000000000000000000000000000000000000000000000000000000000000000000100111100000010000001000000110000000000100000001001001100000100000000000000000001000100000000000100000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000010000000000100000000001000000000000010011110000001000000100000011000000100100100100001000000000010000000000000000001111100010000000001100000000000100000000001000000000000000000001000000000010000000001100000000001000000000010000000001000000000000000000000000000000000001001111000000100000010000001000101011011010010000000010100001000000000000000000000001001000000000011000000000010000000000100000000000111011010000000000000001101100110000000000000000000000000000000100000000000000000000000000000001000100111100000010000001000000101111110000100101000100000111111100000000000000000010000100000000000000100000000000000000000000000000000000000000000000000000000000000011000000000000000000000000000000000000000000000000000000000000000000010011110000001000000100000011000000000010000000100100110000010000000000000000000100010000000000010000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000100000000001001111000000100000010000001100000010010010010000100000000001000000000000000000111110001000000000111000000000010000000000100000000010000000000100000000001000000000100000000000000000000000001000000100000000000000000000000000000000000100111100000010000001000000100010101101101001000000001010000100000000000000000000000100100000000001000000000000000000000000010000000011101101000000000000000110110011000000000000000000000000000000010000000000000000000000000000000100010011110000001000000100000010111111000010010100010000011111110000000000000000001000010000000000000010000000000000000000000000000000000000000000000000000000000000001100000000000000000000000000000000000000000000000000000000000000000001001111000000100000010000001100000000001000000010010011000001000000000000000000010001000000000001000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000100000000000000000000000010000000000100111100000010000001000000110000001001001001000010000000000100000000000000000011111000100000000011000000000000000000000000010000000000000000000000000000000100000011000000000000000000000000100000010000000000000000000000000000000000010011110000001000000100000010001010110110100100000000101000010000000000000000000000010010000000000110000000000000000000000001000000001110110100000000000000011011001100000000000000000000000000000001000000000000000000000000000000010001001111000000100000010000001011111100001001010001000001111111000000000000000000100001000000000000001000000000000000000000000000000000000000000000000000000000000000110000000000000000000000000000000000000000000000000000000000000000000100111100000010000001000000110000000000100000001001001100000100000000000000000001000100000000000100000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000100000000000001000000000010011110000001000000100000011000000100100100100001000000000010000000000000000001111100010000000001110000000000000000000000001000000100000000000000000000000010000001000000000001000000000000010000001000000000000000000000000000000000001001111000000100000010000001000101011011010010000000010100001000000000000000000000001001000000000010000000000010000000000000100000000111011010000000000000001101100110000000000000000000000000000000100000000000000000000000000000001000100111100000010000001000000101111110000100101000100000111111100000000000000000010000100000000000000100000000000000000000000000000000000000000000000000000000000000011000000000000000000000000000000000000000000000000000000000000000000010011110000001000000100000011000000000010000000100100110000010000000000000000000100010000000000010000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000001000000000010000000000000100000000001001111000000100000010000001100000010010010010000100000000001000000000000000000111110001000000000110000000000010000000000000100000000000000000100000000000001000000110000000000100000000000001000000100000000000000000000000000000000000100111100000010000001000000100010101101101001000000001010000100000000000000000000000100100000000001100000000001000000000000010000000011101101000000000000000110110011000000000000000000000000000000010000000000000000000000000000000100010011110000001000000100000010111111000010010100010000011111110000000000000000001000010000000000000010000000000000000000000000000000000000000000000000000000000000001100000000000000000000000000000000000000000000000000000000000000000001001111000000100000010000001100000000001000000010010011000001000000000000000000010001000000000001000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000010010000000000100111100000010000001000000110000001001001001000010000000000100000000000000000011111000100000000011100000000001000000000000010000001000000000010000000000000100000010000000000000000000000100100000010000000000000000000000000000000000010011110000001000000100000010001010110110100100000000101000010000000000000000000000010010000000000100000000000000000000001001000000001110110100000000000000011011001100000000000000000000000000000001000000000000000000000000000000010001001111000000100000010000001011111100001001010001000001111111000000000000000000100001000000000000001000000000000000000000000000000000000000000000000000000000000000110000000000000000000000000000000000000000000000000000000000000000000100111100000010000001000000110000000000100000001001001100000100000000000000000001000100000000000100000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000010000000000000000000001001000000000010011110000001000000100000011000000100100100100001000000000010000000000000000001111100010000000001100000000000000000000001001000000000000000000000000000010010000001100000000000000000000010010000001000000000000000000000000000000000001001111000000100000010000001000101011011010010000000010100001000000000000000000000001001000000000011000000000000000000000100100000000111011010000000000000001101100110000000000000000000000000000000100000000000000000000000000000001000100111100000010000001000000101111110000100101000100000111111100000000000000000010000100000000000000100000000000000000000000000000000000000000000000000000000000000011000000000000000000000000000000000000000000000000000000000000000000010011110000001000000100000011000000000010000000100100110000010000000000000000000100010000000000010000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000010000000000100100000000001001111000000100000010000001100000010010010010000100000000001000000000000000000111110001000000000111000000000000000000000100100000010000000000000000000001001000000100000000000100000000001001000000100000000000000000000000000000000000100111100000010000001000000100010101101101001000000001010000100000000000000000000000100100000000001000000000001000000000010010000000011101101000000000000000110110011000000000000000000000000000000010000000000000000000000000000000100010011110000001000000100000010111111000010010100010000011111110000000000000000001000010000000000000010000000000000000000000000000000000000000000000000000000000000001100000000000000000000000000000000000000000000000000000000000000000001001111000000100000010000001100000000001000000010010011000001000000000000000000010001000000000001000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000100000000001000000000010010000000000100111100000010000001000000110000001001001001000010000000000100000000000000000011111000100000000011000000000001000000000010010000000000000000010000000000100100000011000000000010000000000100100000010000000000000000000000000000000000010011110000001000000100000010001010110110100100000000101000010000000000000000000000010010000000000110000000000100000000001001000000001110110100000000000000011011001100000000000000000000000000000001000000000000000000000000000000010001001111000000100000010000001011111100001001010001000001111111000000000000000000100001000000000000001000000000000000000000000000000000000000000000000000000000000000110000000000000000000000000000000000000000000000000000000000000000000100111100000010000001000000110000000000100000001001001100000100000000000000000001000100000000000100000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000100000000010011110000001000000100000011000000100100100100001000000000010000000000000000001111100010000000001110000000000100000000001001000000100000000001000000000010010000001000000000000000000000000001000001000000000000000000000000000000000001001111000000100000010000001000101011011010010000000010100001000000000000000000000001001000000000010000000000000000000000000010000000111011010000000000000001101100110000000000000000000000000000000100000000000000000000000000000001000100111100000010000001000000101111110000100101000100000111111100000000000000000010000100000000000000100000000000000000000000000000000000000000000000000000000000000011000000000000000000000000000000000000000000000000000000000000000000010011110000001000000100000011000000000010000000100100110000010000000000000000000100010000000000010000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000001000000000000000000000000010000000001001111000000100000010000001100000010010010010000100000000001000000000000000000111110001000000000110000000000000000000000000010000000000000000000000000000000100000110000000000000000000000000100000100000000000000000000000000000000000100111100000010000001000000100010101101101001000000001010000100000000000000000000000100100000000001100000000000000000000000001000000011101101000000000000000110110011000000000000000000000000000000010000000000000000000000000000000100010011110000001000000100000010111111000010010100010000011111110000000000000000001000010000000000000010000000000000000000000000000000000000000000000000000000000000001100000000000000000000000000000000000000000000000000000000000000000001001111000000100000010000001100000000001000000010010011000001000000000000000000010001000000000001000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000001000000000000001000000000100111100000010000001000000110000001001001001000010000000000100000000000000000011111000100000000011100000000000000000000000001000001000000000000000000000000010000010000000000010000000000000010000010000000000000000000000000000000000010011110000001000000100000010001010110110100100000000101000010000000000000000000000010010000000000100000000000100000000000000100000001110110100000000000000011011001100000000000000000000000000000001000000000000000000000000000000010001001111000000100000010000001011111100001001010001000001111111000000000000000000100001000000000000001000000000000000000000000000000000000000000000000000000000000000110000000000000000000000000000000000000000000000000000000000000000000100111100000010000001000000110000000000100000001001001100000100000000000000000001000100000000000100000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000010000000000100000000000000100000000010011110000001000000100000011000000100100100100001000000000010000000000000000001111100010000000001100000000000100000000000000100000000000000001000000000000001000001100000000001000000000000001000001000000000000000000000000000000000001001111000000100000010000001000101011011010010000000010100001000000000000000000000001001000000000011000000000010000000000000010000000111011010000000000000001101100110000000000000000000000000000000100000000000000000000000000000001000100111100000010000001000000101111110000100101000100000111111100000000000000000010000100000000000000100000000000000000000000000000000000000000000000000000000000000011000000000000000000000000000000000000000000000000000000000000000000010011110000001000000100000011000000000010000000100100110000010000000000000000000100010000000000010000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000100010000000001001111000000100000010000001100000010010010010000100000000001000000000000000000111110001000000000111000000000010000000000000010000010000000000100000000000000100000100000000000000000000001000100000100000000000000000000000000000000000100111100000010000001000000100010101101101001000000001010000100000000000000000000000100100000000001000000000000000000000010001000000011101101000000000000000110110011000000000000000000000000000000010000000000000000000000000000000100010011110000001000000100000010111111000010010100010000011111110000000000000000001000010000000000000010000000000000000000000000000000000000000000000000000000000000001100000000000000000000000000000000000000000000000000000000000000000001001111000000100000010000001100000000001000000010010011000001000000000000000000010001000000000001000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000100000000000000000000010001000000000100111100000010000001000000110000001001001001000010000000000100000000000000000011111000100000000011000000000000000000000010001000000000000000000000000000100010000011000000000000000000000100010000010000000000000000000000000000000000010011110000001000000100000010001010110110100100000000101000010000000000000000000000010010000000000110000000000000000000001000100000001110110100000000000000011011001100000000000000000000000000000001000000000000000000000000000000010001001111000000100000010000001011111100001001010001000001111111000000000000000000100001000000000000001000000000000000000000000000000000000000000000000000000000000000110000000000000000000000000000000000000000000000000000000000000000000100111100000010000001000000110000000000100000001001001100000100000000000000000001000100000000000100000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000100000000001000100000000010011110000001000000100000011000000100100100100001000000000010000000000000000001111100010000000001110000000000000000000001000100000100000000000000000000010001000001000000000001000000000010001000001000000000000000000000000000000000001001111000000100000010000001000101011011010010000000010100001000000000000000000000001001000000000010000000000010000000000100010000000111011010000000000000001101100110000000000000000000000000000000100000000000000000000000000000001000100111100000010000001000000101111110000100101000100000111111100000000000000000010000100000000000000100000000000000000000000000000000000000000000000000000000000000011000000000000000000000000000000000000000000000000000000000000000000010011110000001000000100000011000000000010000000100100110000010000000000000000000100010000000000010000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000001000000000010000000000100010000000001001111000000100000010000001100000010010010010000100000000001000000000000000000111110001000000000110000000000010000000000100010000000000000000100000000001000100000110000000000100000000001000100000100000000000000000000000000000000000100111100000010000001000000100010101101101001000000001010000100000000000000000000000100100000000001100000000001000000000010001000000011101101000000000000000110110011000000000000000000000000000000010000000000000000000000000000000100010011110000001000000100000010111111000010010100010000011111110000000000000000001000010000000000000010000000000000000000000000000000000000000000000000000000000000001100000000000000000000000000000000000000000000000000000000000000000001001111000000100000010000001100000000001000000010010011000001000000000000000000010001000000000001000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000011000000000100111100000010000001000000110000001001001001000010000000000100000000000000000011111000100000000011100000000001000000000010001000001000000000010000000000100010000010000000000000000000000000110000010000000000000000000000000000000000010011110000001000000100000010001010110110100100000000101000010000000000000000000000010010000000000100000000000000000000000001100000001110110100000000000000011011001100000000000000000000000000000001000000000000000000000000000000010001001111000000100000010000001011111100001001010001000001111111000000000000000000100001000000000000001000000000000000000000000000000000000000000000000000000000000000110000000000000000000000000000000000000000000000000000000000000000000100111100000010000001000000110000000000100000001001001100000100000000000000000001000100000000000100000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000010000000000000000000000001100000000010011110000001000000100000011000000100100100100001000000000010000000000000000001111100010000000001100000000000000000000000001100000000000000000000000000000011000001100000000000000000000000011000001000000000000000000000000000000000001001111000000100000010000001000101011011010010000000010100001000000000000000000000001001000000000011000000000000000000000000110000000111011010000000000000001101100110000000000000000000000000000000</data>
+          <extradata>11111111111111111111111111111111T1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111</extradata>
+        </log>
+      </trigger>
+    </signal_set>
+    <position_info>
+      <single attribute="active tab" value="0"/>
+      <single attribute="data horizontal scroll position" value="0"/>
+      <single attribute="data vertical scroll position" value="0"/>
+      <single attribute="setup hierarchy Execute:EXE" value="3"/>
+      <single attribute="setup hierarchy Test" value="3"/>
+      <single attribute="setup hierarchy control:CTL" value="3"/>
+      <single attribute="setup horizontal scroll position" value="0"/>
+      <single attribute="setup vertical scroll position" value="0"/>
+      <single attribute="zoom level denominator" value="1"/>
+      <single attribute="zoom level numerator" value="16"/>
+      <single attribute="zoom offset denominator" value="1"/>
+      <single attribute="zoom offset numerator" value="8176"/>
+    </position_info>
+  </instance>
+  <mnemonics/>
+  <static_plugin_mnemonics/>
+  <global_info>
+    <single attribute="active instance" value="0"/>
+    <single attribute="config widget visible" value="1"/>
+    <single attribute="data log widget visible" value="1"/>
+    <single attribute="hierarchy widget visible" value="1"/>
+    <single attribute="instance widget visible" value="1"/>
+    <single attribute="jtag widget visible" value="1"/>
+    <multi attribute="frame size" size="2" value="1920,1017"/>
+    <multi attribute="jtag widget size" size="2" value="320,120"/>
+  </global_info>
+</session>
