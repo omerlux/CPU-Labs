@@ -1,0 +1,326 @@
+<session jtag_chain="USB-Blaster [USB-0]" jtag_device="@1: EP2C(15|20) (0x020B30DD)" sof_file="Test.sof">
+  <display_tree gui_logging_enabled="0">
+    <display_branch instance="auto_signaltap_0" log="USE_GLOBAL_TEMP" signal_set="USE_GLOBAL_TEMP" trigger="USE_GLOBAL_TEMP"/>
+  </display_tree>
+  <instance entity_name="sld_signaltap" is_auto_node="yes" is_expanded="true" name="auto_signaltap_0" source_file="sld_signaltap.vhd">
+    <node_ip_info instance_id="0" mfg_id="110" node_id="0" version="6"/>
+    <signal_set global_temp="1" is_expanded="true" name="signal_set: 2020/06/05 16:01:00  #0">
+      <clock name="clk" polarity="posedge" tap_mode="probeonly"/>
+      <config ram_type="M4K" reserved_data_nodes="0" reserved_storage_qualifier_nodes="0" reserved_trigger_nodes="0" sample_depth="128" trigger_in_enable="no" trigger_out_enable="no"/>
+      <top_entity/>
+      <signal_vec>
+        <trigger_input_vec>
+          <wire name="RES_HI[0]" tap_mode="probeonly" type="output pin"/>
+          <wire name="RES_HI[1]" tap_mode="probeonly" type="output pin"/>
+          <wire name="RES_HI[2]" tap_mode="probeonly" type="output pin"/>
+          <wire name="RES_HI[3]" tap_mode="probeonly" type="output pin"/>
+          <wire name="RES_HI[4]" tap_mode="probeonly" type="output pin"/>
+          <wire name="RES_HI[5]" tap_mode="probeonly" type="output pin"/>
+          <wire name="RES_HI[6]" tap_mode="probeonly" type="output pin"/>
+          <wire name="RES_HI[7]" tap_mode="probeonly" type="output pin"/>
+          <wire name="RES_LO[0]" tap_mode="probeonly" type="output pin"/>
+          <wire name="RES_LO[1]" tap_mode="probeonly" type="output pin"/>
+          <wire name="RES_LO[2]" tap_mode="probeonly" type="output pin"/>
+          <wire name="RES_LO[3]" tap_mode="probeonly" type="output pin"/>
+          <wire name="RES_LO[4]" tap_mode="probeonly" type="output pin"/>
+          <wire name="RES_LO[5]" tap_mode="probeonly" type="output pin"/>
+          <wire name="RES_LO[6]" tap_mode="probeonly" type="output pin"/>
+          <wire name="RES_LO[7]" tap_mode="probeonly" type="output pin"/>
+          <wire name="STATUS[0]" tap_mode="probeonly" type="output pin"/>
+          <wire name="STATUS[1]" tap_mode="probeonly" type="output pin"/>
+          <wire name="clk_ena" tap_mode="probeonly" type="input pin"/>
+          <wire name="clk_mac" tap_mode="probeonly" type="input pin"/>
+          <wire name="ena_A" tap_mode="probeonly" type="input pin"/>
+          <wire name="ena_B" tap_mode="probeonly" type="input pin"/>
+          <wire name="ena_OP" tap_mode="probeonly" type="input pin"/>
+          <wire name="reg2ALU_A[0]" tap_mode="probeonly" type="register"/>
+          <wire name="reg2ALU_A[1]" tap_mode="probeonly" type="register"/>
+          <wire name="reg2ALU_A[2]" tap_mode="probeonly" type="register"/>
+          <wire name="reg2ALU_A[3]" tap_mode="probeonly" type="register"/>
+          <wire name="reg2ALU_A[4]" tap_mode="probeonly" type="register"/>
+          <wire name="reg2ALU_A[5]" tap_mode="probeonly" type="register"/>
+          <wire name="reg2ALU_A[6]" tap_mode="probeonly" type="register"/>
+          <wire name="reg2ALU_A[7]" tap_mode="probeonly" type="register"/>
+          <wire name="reg2ALU_B[0]" tap_mode="probeonly" type="register"/>
+          <wire name="reg2ALU_B[1]" tap_mode="probeonly" type="register"/>
+          <wire name="reg2ALU_B[2]" tap_mode="probeonly" type="register"/>
+          <wire name="reg2ALU_B[3]" tap_mode="probeonly" type="register"/>
+          <wire name="reg2ALU_B[4]" tap_mode="probeonly" type="register"/>
+          <wire name="reg2ALU_B[5]" tap_mode="probeonly" type="register"/>
+          <wire name="reg2ALU_B[6]" tap_mode="probeonly" type="register"/>
+          <wire name="reg2ALU_B[7]" tap_mode="probeonly" type="register"/>
+          <wire name="reg2ALU_OPC[0]" tap_mode="probeonly" type="register"/>
+          <wire name="reg2ALU_OPC[1]" tap_mode="probeonly" type="register"/>
+          <wire name="reg2ALU_OPC[2]" tap_mode="probeonly" type="register"/>
+          <wire name="reg2ALU_OPC[3]" tap_mode="probeonly" type="register"/>
+          <wire name="reg2ALU_OPC[4]" tap_mode="probeonly" type="register"/>
+        </trigger_input_vec>
+        <data_input_vec>
+          <wire name="RES_HI[0]" tap_mode="probeonly" type="output pin"/>
+          <wire name="RES_HI[1]" tap_mode="probeonly" type="output pin"/>
+          <wire name="RES_HI[2]" tap_mode="probeonly" type="output pin"/>
+          <wire name="RES_HI[3]" tap_mode="probeonly" type="output pin"/>
+          <wire name="RES_HI[4]" tap_mode="probeonly" type="output pin"/>
+          <wire name="RES_HI[5]" tap_mode="probeonly" type="output pin"/>
+          <wire name="RES_HI[6]" tap_mode="probeonly" type="output pin"/>
+          <wire name="RES_HI[7]" tap_mode="probeonly" type="output pin"/>
+          <wire name="RES_LO[0]" tap_mode="probeonly" type="output pin"/>
+          <wire name="RES_LO[1]" tap_mode="probeonly" type="output pin"/>
+          <wire name="RES_LO[2]" tap_mode="probeonly" type="output pin"/>
+          <wire name="RES_LO[3]" tap_mode="probeonly" type="output pin"/>
+          <wire name="RES_LO[4]" tap_mode="probeonly" type="output pin"/>
+          <wire name="RES_LO[5]" tap_mode="probeonly" type="output pin"/>
+          <wire name="RES_LO[6]" tap_mode="probeonly" type="output pin"/>
+          <wire name="RES_LO[7]" tap_mode="probeonly" type="output pin"/>
+          <wire name="STATUS[0]" tap_mode="probeonly" type="output pin"/>
+          <wire name="STATUS[1]" tap_mode="probeonly" type="output pin"/>
+          <wire name="clk_ena" tap_mode="probeonly" type="input pin"/>
+          <wire name="clk_mac" tap_mode="probeonly" type="input pin"/>
+          <wire name="ena_A" tap_mode="probeonly" type="input pin"/>
+          <wire name="ena_B" tap_mode="probeonly" type="input pin"/>
+          <wire name="ena_OP" tap_mode="probeonly" type="input pin"/>
+          <wire name="reg2ALU_A[0]" tap_mode="probeonly" type="register"/>
+          <wire name="reg2ALU_A[1]" tap_mode="probeonly" type="register"/>
+          <wire name="reg2ALU_A[2]" tap_mode="probeonly" type="register"/>
+          <wire name="reg2ALU_A[3]" tap_mode="probeonly" type="register"/>
+          <wire name="reg2ALU_A[4]" tap_mode="probeonly" type="register"/>
+          <wire name="reg2ALU_A[5]" tap_mode="probeonly" type="register"/>
+          <wire name="reg2ALU_A[6]" tap_mode="probeonly" type="register"/>
+          <wire name="reg2ALU_A[7]" tap_mode="probeonly" type="register"/>
+          <wire name="reg2ALU_B[0]" tap_mode="probeonly" type="register"/>
+          <wire name="reg2ALU_B[1]" tap_mode="probeonly" type="register"/>
+          <wire name="reg2ALU_B[2]" tap_mode="probeonly" type="register"/>
+          <wire name="reg2ALU_B[3]" tap_mode="probeonly" type="register"/>
+          <wire name="reg2ALU_B[4]" tap_mode="probeonly" type="register"/>
+          <wire name="reg2ALU_B[5]" tap_mode="probeonly" type="register"/>
+          <wire name="reg2ALU_B[6]" tap_mode="probeonly" type="register"/>
+          <wire name="reg2ALU_B[7]" tap_mode="probeonly" type="register"/>
+          <wire name="reg2ALU_OPC[0]" tap_mode="probeonly" type="register"/>
+          <wire name="reg2ALU_OPC[1]" tap_mode="probeonly" type="register"/>
+          <wire name="reg2ALU_OPC[2]" tap_mode="probeonly" type="register"/>
+          <wire name="reg2ALU_OPC[3]" tap_mode="probeonly" type="register"/>
+          <wire name="reg2ALU_OPC[4]" tap_mode="probeonly" type="register"/>
+        </data_input_vec>
+        <storage_qualifier_input_vec>
+          <wire name="RES_HI[0]" tap_mode="probeonly" type="output pin"/>
+          <wire name="RES_HI[1]" tap_mode="probeonly" type="output pin"/>
+          <wire name="RES_HI[2]" tap_mode="probeonly" type="output pin"/>
+          <wire name="RES_HI[3]" tap_mode="probeonly" type="output pin"/>
+          <wire name="RES_HI[4]" tap_mode="probeonly" type="output pin"/>
+          <wire name="RES_HI[5]" tap_mode="probeonly" type="output pin"/>
+          <wire name="RES_HI[6]" tap_mode="probeonly" type="output pin"/>
+          <wire name="RES_HI[7]" tap_mode="probeonly" type="output pin"/>
+          <wire name="RES_LO[0]" tap_mode="probeonly" type="output pin"/>
+          <wire name="RES_LO[1]" tap_mode="probeonly" type="output pin"/>
+          <wire name="RES_LO[2]" tap_mode="probeonly" type="output pin"/>
+          <wire name="RES_LO[3]" tap_mode="probeonly" type="output pin"/>
+          <wire name="RES_LO[4]" tap_mode="probeonly" type="output pin"/>
+          <wire name="RES_LO[5]" tap_mode="probeonly" type="output pin"/>
+          <wire name="RES_LO[6]" tap_mode="probeonly" type="output pin"/>
+          <wire name="RES_LO[7]" tap_mode="probeonly" type="output pin"/>
+          <wire name="STATUS[0]" tap_mode="probeonly" type="output pin"/>
+          <wire name="STATUS[1]" tap_mode="probeonly" type="output pin"/>
+          <wire name="clk_ena" tap_mode="probeonly" type="input pin"/>
+          <wire name="clk_mac" tap_mode="probeonly" type="input pin"/>
+          <wire name="ena_A" tap_mode="probeonly" type="input pin"/>
+          <wire name="ena_B" tap_mode="probeonly" type="input pin"/>
+          <wire name="ena_OP" tap_mode="probeonly" type="input pin"/>
+          <wire name="reg2ALU_A[0]" tap_mode="probeonly" type="register"/>
+          <wire name="reg2ALU_A[1]" tap_mode="probeonly" type="register"/>
+          <wire name="reg2ALU_A[2]" tap_mode="probeonly" type="register"/>
+          <wire name="reg2ALU_A[3]" tap_mode="probeonly" type="register"/>
+          <wire name="reg2ALU_A[4]" tap_mode="probeonly" type="register"/>
+          <wire name="reg2ALU_A[5]" tap_mode="probeonly" type="register"/>
+          <wire name="reg2ALU_A[6]" tap_mode="probeonly" type="register"/>
+          <wire name="reg2ALU_A[7]" tap_mode="probeonly" type="register"/>
+          <wire name="reg2ALU_B[0]" tap_mode="probeonly" type="register"/>
+          <wire name="reg2ALU_B[1]" tap_mode="probeonly" type="register"/>
+          <wire name="reg2ALU_B[2]" tap_mode="probeonly" type="register"/>
+          <wire name="reg2ALU_B[3]" tap_mode="probeonly" type="register"/>
+          <wire name="reg2ALU_B[4]" tap_mode="probeonly" type="register"/>
+          <wire name="reg2ALU_B[5]" tap_mode="probeonly" type="register"/>
+          <wire name="reg2ALU_B[6]" tap_mode="probeonly" type="register"/>
+          <wire name="reg2ALU_B[7]" tap_mode="probeonly" type="register"/>
+          <wire name="reg2ALU_OPC[0]" tap_mode="probeonly" type="register"/>
+          <wire name="reg2ALU_OPC[1]" tap_mode="probeonly" type="register"/>
+          <wire name="reg2ALU_OPC[2]" tap_mode="probeonly" type="register"/>
+          <wire name="reg2ALU_OPC[3]" tap_mode="probeonly" type="register"/>
+          <wire name="reg2ALU_OPC[4]" tap_mode="probeonly" type="register"/>
+        </storage_qualifier_input_vec>
+      </signal_vec>
+      <presentation>
+        <data_view>
+          <net is_signal_inverted="no" name="clk_ena"/>
+          <net is_signal_inverted="no" name="clk_mac"/>
+          <net is_signal_inverted="no" name="ena_A"/>
+          <net is_signal_inverted="no" name="ena_B"/>
+          <net is_signal_inverted="no" name="ena_OP"/>
+          <bus is_signal_inverted="no" link="all" name="reg2ALU_B" order="msb_to_lsb" radix="hex" state="collapse" type="register">
+            <net is_signal_inverted="no" name="reg2ALU_B[7]"/>
+            <net is_signal_inverted="no" name="reg2ALU_B[6]"/>
+            <net is_signal_inverted="no" name="reg2ALU_B[5]"/>
+            <net is_signal_inverted="no" name="reg2ALU_B[4]"/>
+            <net is_signal_inverted="no" name="reg2ALU_B[3]"/>
+            <net is_signal_inverted="no" name="reg2ALU_B[2]"/>
+            <net is_signal_inverted="no" name="reg2ALU_B[1]"/>
+            <net is_signal_inverted="no" name="reg2ALU_B[0]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="reg2ALU_A" order="msb_to_lsb" radix="hex" state="collapse" type="register">
+            <net is_signal_inverted="no" name="reg2ALU_A[7]"/>
+            <net is_signal_inverted="no" name="reg2ALU_A[6]"/>
+            <net is_signal_inverted="no" name="reg2ALU_A[5]"/>
+            <net is_signal_inverted="no" name="reg2ALU_A[4]"/>
+            <net is_signal_inverted="no" name="reg2ALU_A[3]"/>
+            <net is_signal_inverted="no" name="reg2ALU_A[2]"/>
+            <net is_signal_inverted="no" name="reg2ALU_A[1]"/>
+            <net is_signal_inverted="no" name="reg2ALU_A[0]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="reg2ALU_OPC" order="msb_to_lsb" radix="hex" state="collapse" type="register">
+            <net is_signal_inverted="no" name="reg2ALU_OPC[4]"/>
+            <net is_signal_inverted="no" name="reg2ALU_OPC[3]"/>
+            <net is_signal_inverted="no" name="reg2ALU_OPC[2]"/>
+            <net is_signal_inverted="no" name="reg2ALU_OPC[1]"/>
+            <net is_signal_inverted="no" name="reg2ALU_OPC[0]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="RES_HI" order="msb_to_lsb" radix="hex" state="collapse" type="output pin">
+            <net is_signal_inverted="no" name="RES_HI[7]"/>
+            <net is_signal_inverted="no" name="RES_HI[6]"/>
+            <net is_signal_inverted="no" name="RES_HI[5]"/>
+            <net is_signal_inverted="no" name="RES_HI[4]"/>
+            <net is_signal_inverted="no" name="RES_HI[3]"/>
+            <net is_signal_inverted="no" name="RES_HI[2]"/>
+            <net is_signal_inverted="no" name="RES_HI[1]"/>
+            <net is_signal_inverted="no" name="RES_HI[0]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="RES_LO" order="msb_to_lsb" radix="hex" state="collapse" type="output pin">
+            <net is_signal_inverted="no" name="RES_LO[7]"/>
+            <net is_signal_inverted="no" name="RES_LO[6]"/>
+            <net is_signal_inverted="no" name="RES_LO[5]"/>
+            <net is_signal_inverted="no" name="RES_LO[4]"/>
+            <net is_signal_inverted="no" name="RES_LO[3]"/>
+            <net is_signal_inverted="no" name="RES_LO[2]"/>
+            <net is_signal_inverted="no" name="RES_LO[1]"/>
+            <net is_signal_inverted="no" name="RES_LO[0]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="STATUS" order="msb_to_lsb" radix="hex" state="collapse" type="output pin">
+            <net is_signal_inverted="no" name="STATUS[1]"/>
+            <net is_signal_inverted="no" name="STATUS[0]"/>
+          </bus>
+        </data_view>
+        <setup_view>
+          <net is_signal_inverted="no" name="clk_ena"/>
+          <net is_signal_inverted="no" name="clk_mac"/>
+          <net is_signal_inverted="no" name="ena_A"/>
+          <net is_signal_inverted="no" name="ena_B"/>
+          <net is_signal_inverted="no" name="ena_OP"/>
+          <bus is_signal_inverted="no" link="all" name="reg2ALU_B" order="msb_to_lsb" radix="hex" state="collapse" type="register">
+            <net is_signal_inverted="no" name="reg2ALU_B[7]"/>
+            <net is_signal_inverted="no" name="reg2ALU_B[6]"/>
+            <net is_signal_inverted="no" name="reg2ALU_B[5]"/>
+            <net is_signal_inverted="no" name="reg2ALU_B[4]"/>
+            <net is_signal_inverted="no" name="reg2ALU_B[3]"/>
+            <net is_signal_inverted="no" name="reg2ALU_B[2]"/>
+            <net is_signal_inverted="no" name="reg2ALU_B[1]"/>
+            <net is_signal_inverted="no" name="reg2ALU_B[0]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="reg2ALU_A" order="msb_to_lsb" radix="hex" state="collapse" type="register">
+            <net is_signal_inverted="no" name="reg2ALU_A[7]"/>
+            <net is_signal_inverted="no" name="reg2ALU_A[6]"/>
+            <net is_signal_inverted="no" name="reg2ALU_A[5]"/>
+            <net is_signal_inverted="no" name="reg2ALU_A[4]"/>
+            <net is_signal_inverted="no" name="reg2ALU_A[3]"/>
+            <net is_signal_inverted="no" name="reg2ALU_A[2]"/>
+            <net is_signal_inverted="no" name="reg2ALU_A[1]"/>
+            <net is_signal_inverted="no" name="reg2ALU_A[0]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="reg2ALU_OPC" order="msb_to_lsb" radix="hex" state="collapse" type="register">
+            <net is_signal_inverted="no" name="reg2ALU_OPC[4]"/>
+            <net is_signal_inverted="no" name="reg2ALU_OPC[3]"/>
+            <net is_signal_inverted="no" name="reg2ALU_OPC[2]"/>
+            <net is_signal_inverted="no" name="reg2ALU_OPC[1]"/>
+            <net is_signal_inverted="no" name="reg2ALU_OPC[0]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="RES_HI" order="msb_to_lsb" radix="hex" state="collapse" type="output pin">
+            <net is_signal_inverted="no" name="RES_HI[7]"/>
+            <net is_signal_inverted="no" name="RES_HI[6]"/>
+            <net is_signal_inverted="no" name="RES_HI[5]"/>
+            <net is_signal_inverted="no" name="RES_HI[4]"/>
+            <net is_signal_inverted="no" name="RES_HI[3]"/>
+            <net is_signal_inverted="no" name="RES_HI[2]"/>
+            <net is_signal_inverted="no" name="RES_HI[1]"/>
+            <net is_signal_inverted="no" name="RES_HI[0]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="RES_LO" order="msb_to_lsb" radix="hex" state="collapse" type="output pin">
+            <net is_signal_inverted="no" name="RES_LO[7]"/>
+            <net is_signal_inverted="no" name="RES_LO[6]"/>
+            <net is_signal_inverted="no" name="RES_LO[5]"/>
+            <net is_signal_inverted="no" name="RES_LO[4]"/>
+            <net is_signal_inverted="no" name="RES_LO[3]"/>
+            <net is_signal_inverted="no" name="RES_LO[2]"/>
+            <net is_signal_inverted="no" name="RES_LO[1]"/>
+            <net is_signal_inverted="no" name="RES_LO[0]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="STATUS" order="msb_to_lsb" radix="hex" state="collapse" type="output pin">
+            <net is_signal_inverted="no" name="STATUS[1]"/>
+            <net is_signal_inverted="no" name="STATUS[0]"/>
+          </bus>
+        </setup_view>
+      </presentation>
+      <trigger CRC="9B935555" attribute_mem_mode="false" gap_record="true" global_temp="1" is_expanded="true" name="trigger: 2020/06/05 16:01:00  #1" position="pre" power_up_trigger_mode="false" record_data_gap="true" segment_size="1" storage_mode="off" storage_qualifier_disabled="no" storage_qualifier_port_is_pin="false" storage_qualifier_port_name="auto_stp_external_storage_qualifier" storage_qualifier_port_tap_mode="classic" trigger_in="dont_care" trigger_out="active high" trigger_type="circular">
+        <power_up_trigger position="pre" storage_qualifier_disabled="no" trigger_in="dont_care" trigger_out="active high"/>
+        <events use_custom_flow_control="no">
+          <level enabled="yes" name="condition1" type="basic">'clk_ena' == rising edge
+            <power_up enabled="yes">
+            </power_up><op_node/>
+          </level>
+        </events>
+        <storage_qualifier_events>
+          <transitional>00000000000000000000000000000000000000000000
+            <pwr_up_transitional>00000000000000000000000000000000000000000000</pwr_up_transitional>
+          </transitional>
+          <storage_qualifier_level type="basic">
+            <power_up>
+            </power_up>
+            <op_node/>
+          </storage_qualifier_level>
+          <storage_qualifier_level type="basic">
+            <power_up>
+            </power_up>
+            <op_node/>
+          </storage_qualifier_level>
+          <storage_qualifier_level type="basic">
+            <power_up>
+            </power_up>
+            <op_node/>
+          </storage_qualifier_level>
+        </storage_qualifier_events>
+        <log>
+          <data global_temp="1" name="log: 2020/06/05 16:16:24  #0" power_up_mode="false" sample_depth="128" trigger_position="16">0000000010010100000111101011010110011101101000000000100101000001111010110101100111011010000000001001010000011110101101011001110110100000000010010100000111101011010110011101101000000000100101000001111010110101100111011010000000001001010000011110101101011001110110100000000010010100000111101011010110011101101000000000100101000001111010110101100111011010000000001001010000011110101101011001110110100000000010010100000111101011010110011101101000000000100101000001111010110101100111011010000000001001010000011110101101011001110110100000000010010100000111101011010110011101101000000000100101000001111010110101100111011010000000001001010000011110101101011001110110100000000010010100000111101011010110011101101000000000100101000011111010110101100111011010000000001001010000111110101101011001110110100000000010010100001111101011010110011101101000000000100101000011111010110101100111011010000000001001010000111110101101011001110110100000000010010100001111101011010110011101101000000000100101000011111010110101100111011010000000001001010000111110101101011001110110100000000010010100001111101011010110011101101000000000100101000011111010110101100111011010000000001001010000111110101101011001110110100000000010010100001111101011010110011101101000000000100101000011111010110101100111011010000000001001010000111110101101011001110110100000000010010100001111101011010110011101101000000000100101000011111010110101100111011010000000001001010000111110101101011001110110100000000010010100001111101011010110011101101000000000100101000011111010110101100111011010000000001001010000111110101101011001110110100000000010010100001111101011010110011101101000000000100101000011111010110101100111011010000000001001010000111110101101011001110110100000000010010100001111101011010110011101101000000000100101000011111010110101100111011010000000001001010000111110101101011001110110100000000010010100001111101011010110011101101000000000100101000011111010110101100111011010000000001001010000111110101101011001110110100000000010010100001111101011010110011101101000000000100101000011111010110101100111011010000000001001010000111110101101011001110110100000000010010100001111101011010110011101101000000000100101000011111010110101100111011010000000001001010000111110101101011001110110100000000010010100001111101011010110011101101000000000100101000011111010110101100111011010000000001001010000111110101101011001110110100000000010010100001111101011010110011101101000000000100101000011111010110101100111011010000000001001010000111110101101011001110110100000000010010100001111101011010110011101101000000000100101000011111010110101100111011010000000001001010000111110101101011001110110100000000010010100001111101011010110011101101000000000100101000011111010110101100111011010000000001001010000111110101101011001110110100000000010010100001111101011010110011101101000000000100101000011111010110101100111011010000000001001010000111110101101011001110110100000000010010100001111101011010110011101101000000000100101000011111010110101100111011010000000001001010000111110101101011001110110100000000010010100001111101011010110011101101000000000100101000011111010110101100111011010000000001001010000111110101101011001110110100000000010010100001111101011010110011101101000000000100101000011111010110101100111011010000000001001010000111110101101011001110110100000000010010100001111101011010110011101101000000000100101000011111010110101100111011010000000001001010000111110101101011001110110100000000010010100001111101011010110011101101000000000100101000011111010110101100111011010000000001001010000111110101101011001110110100000000010010100001111101011010110011101101000000000100101000011111010110101100111011010000000001001010000111110101101011001110110100000000010010100001111101011010110011101101000000000100101000011111010110101100111011010000000001001010000111110101101011001110110100000000010010100001111101011010110011101101000000000100101000011111010110101100111011010000000001001010000111110101101011001110110100000000010010100001111101011010110011101101000000000100101000011111010110101100111011010000000001001010000111110101101011001110110100000000010010100001111101011010110011101101000000000100101000011111010110101100111011010000000001001010000111110101101011001110110100000000010010100001111101011010110011101101000000000100101000011111010110101100111011010000000001001010000111110101101011001110110100000000010010100001111101011010110011101101000000000100101000011111010110101100111011010000000001001010000111110101101011001110110100000000010010100001111101011010110011101101000000000100101000011111010110101100111011010000000001001010000111110101101011001110110100000000010010100001111101011010110011101101000000000100101000011111010110101100111011010000000001001010000111110101101011001110110100000000010010100001111101011010110011101101000000000100101000011111010110101100111011010000000001001010000111110101101011001110110100000000010010100001111101011010110011101101000000000100101000011111010110101100111011010000000001001010000111110101101011001110110100000000010010100001111101011010110011101101000000000100101000011111010110101100111011010000000001001010000111110101101011001110110100000000010010100001111101011010110011101101000000000100101000011111010110101100111011010000000001001010000111110101101011001110110100000000010010100001111101011010110011101101000000000100101000011111010110101100111011010000000001001010000111110101101011001110110100000000010010100001111101011010110011101101000000000100101000011111010110101100111011010000000001001010000111110101101011001110110100000000010010100001111101011010110011101101000000000100101000011111010110101100111011010</data>
+          <extradata>1111111111111111T111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111</extradata>
+        </log>
+      </trigger>
+    </signal_set>
+    <position_info>
+      <single attribute="active tab" value="0"/>
+      <single attribute="data vertical scroll position" value="0"/>
+      <single attribute="data horizontal scroll position" value="17"/>
+      <single attribute="zoom level numerator" value="2"/>
+      <single attribute="zoom level denominator" value="1"/>
+      <single attribute="zoom offset numerator" value="65472"/>
+      <single attribute="zoom offset denominator" value="1"/>
+    </position_info>
+  </instance>
+  <mnemonics/>
+  <global_info>
+    <single attribute="active instance" value="0"/>
+    <single attribute="config widget visible" value="1"/>
+    <single attribute="data log widget visible" value="1"/>
+    <single attribute="hierarchy widget visible" value="1"/>
+    <single attribute="instance widget visible" value="1"/>
+    <single attribute="jtag widget visible" value="1"/>
+    <single attribute="sof manager visible" value="0"/>
+    <multi attribute="frame size" size="2" value="635,850"/>
+    <multi attribute="jtag widget size" size="2" value="320,178"/>
+  </global_info>
+  <static_plugin_mnemonics/>
+</session>
