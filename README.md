@@ -14,3 +14,4 @@ Task 2: Synthezable ALU done with QuartusII program.
 
 Task 3: Full functioning MIPS (most of the commands are implemented).
 
+Final: Full functioning MIPS with extra 2 commands (JAL and JR) and added extra hardware - Basic tiemr and Interrupt Controller.
